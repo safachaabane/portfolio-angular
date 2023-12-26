@@ -17,6 +17,14 @@
           "standalone": false
         }
       },
+      "i18n": {
+         "sourceLocale":"en" ,
+         "locales": {
+          "fr":"src/assets/i18n/fr.json",
+          "es":"src/assets/i18n/en.json",
+          "de":"src/assets/i18n/de.json"
+         }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -113,5 +121,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
