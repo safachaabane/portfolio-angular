@@ -3,15 +3,27 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'portfolio-angular';
-  constructor(private translateService:TranslateService )
-  {
-    const userLang=navigator.language || 'en';
-    const languageCode=userLang.split('-')[0];
-    this.translateService.setDefaultLang(languageCode);
-    this.translateService.use(languageCode);
+  constructor(private translateService: TranslateService) {
+    if (typeof navigator !== 'undefined') {
+      const userLang = navigator.language || 'en';
+      const languageCode = userLang.split('-')[0];
+      this.translateService.setDefaultLang(languageCode);
+      this.translateService.use(languageCode);
+      this.translateService.get("name").subscribe({
+        next: (res)=>{ console.log(res);
+        },
+      })
+    } else {
+      this.translateService.setDefaultLang('en');
+      this.translateService.use('en');
+      this.translateService.getTranslation("en").subscribe({
+        next: (res)=>{ console.log(res);
+        },
+      })
+    }
   }
 }
