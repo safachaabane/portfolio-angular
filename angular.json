@@ -17,6 +17,15 @@
           "standalone": false
         }
       },
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "fr-FR": {
+            "translation": "src/locale/messages.fr.xlf",
+            "baseHref": "fr-FR/"
+          }
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,6 +33,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "fr-FR"
+            ],
             "outputPath": "dist/portfolio-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
