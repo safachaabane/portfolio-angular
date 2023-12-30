@@ -17,6 +17,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient,HttpClientModule } from '@angular/common/http';
+import { LoadingComponent } from './pages/loading/loading.component';
+import { ErrorComponent } from './pages/error/error.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -35,7 +37,9 @@ export function HttpLoaderFactory(http:HttpClient){
     LastProjectsComponent,
     ServicesComponent,
     NavBarComponent,
-    SliderComponent
+    SliderComponent,
+    LoadingComponent,
+    ErrorComponent
   ],
   imports: [
     TranslateModule.forRoot({
