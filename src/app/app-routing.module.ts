@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { AppComponent } from './app.component';
 
-const routes: Routes = [];
+const languageValidator = (param: string) => /(en|fr|de)/.test(param);
+
+const routes: Routes = [
+  { path: ':lang', children: [] },
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
