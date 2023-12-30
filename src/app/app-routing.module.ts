@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-
-const languageValidator = (param: string) => /(en|fr|de)/.test(param);
+import { languageGuard } from './guards/language.guard';
 
 const routes: Routes = [
-  { path: ':lang', children: [] },
-
+  {
+    path: ':lang',
+    pathMatch: 'full',
+    canActivate: [languageGuard],
+    component: AppComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
