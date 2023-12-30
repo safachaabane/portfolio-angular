@@ -38,16 +38,16 @@ export function HttpLoaderFactory(http:HttpClient){
     SliderComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
     TranslateModule.forRoot({
       loader:{
-             provide:TranslateLoader,
-             useFactory:HttpLoaderFactory,
-             deps:[HttpClient],
+        provide:TranslateLoader,
+        useFactory:HttpLoaderFactory,
+        deps:[HttpClient],
       }
-    })
+    }),
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     provideClientHydration()
