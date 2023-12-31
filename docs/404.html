@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
 </head>
 <body>
-    <h1>achraf error </h1>
+  <script>
+    var segmentCount = location.pathname.split('/').length;
+    var pathComponents = location.pathname.split('/').slice(1, segmentCount - 1);
+    var redirectPath = pathComponents.length === 0 ? '/' : pathComponents.join('/');
+    location.replace(location.protocol + '//' + location.host + redirectPath + '/index.html');
+  </script>
 </body>
 </html>
