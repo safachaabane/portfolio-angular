@@ -17,6 +17,13 @@
           "standalone": false
         }
       },
+      "i18n": {
+         "sourceLocale":"en" ,
+         "locales": {
+          "fr":"src/assets/i18n/fr.json",
+          "de":"src/assets/i18n/de.json"
+         }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +31,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/portfolio-angular",
+            "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -113,5 +120,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
