@@ -1,1 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /  # Remplacez <nom-du-repository> par le nom de votre dépôt GitHub
+
+  # Rediriger toutes les requêtes vers index.html sauf si le fichier ou le répertoire existe
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
 
