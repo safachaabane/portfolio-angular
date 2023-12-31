@@ -1,7 +1,17 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule ^$ /index.html [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ %{REQUEST_FILENAME}.html [QSA,L]
-ErrorDocument 404 /index.html
+  RewriteEngine On
+  RewriteBase /   # Ajout de cette ligne pour indiquer la base de l'URL
+  
+  # Rediriger toutes les requêtes vers index.html sauf si le fichier existe
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ /index.html [L]
+
+  # Rediriger les URL sans extension vers le fichier correspondant
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ $1.html [QSA,L]
+
+  # Rediriger les erreurs 404 vers index.html
+  ErrorDocument 404 /index.html
 </IfModule>
