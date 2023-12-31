@@ -6,17 +6,11 @@ import { LoadingService } from './services/loading.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  {
-  title = 'portfolio-angular';
+  title = 'safa chaabane';
   loading:boolean=false;
-  constructor(private loadingService:LoadingService) {
-    //  this.translateService.get("name").subscribe({
-    //   next: (res)=>{ console.log(res);
-    //   },
-    // })  
-  }
+  constructor(private loadingService:LoadingService) {}
   ngOnInit()
   {
     this.loading=this.loadingService.loading;
-
   }
 }
