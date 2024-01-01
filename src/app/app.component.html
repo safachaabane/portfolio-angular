@@ -1,4 +1,6 @@
-<div>
-<h1>achraf</h1>
-<router-outlet></router-outlet>
-</div>
+@if (loading) {
+ <app-loading></app-loading>
+}
+@else { 
+    <router-outlet></router-outlet>
+  }
