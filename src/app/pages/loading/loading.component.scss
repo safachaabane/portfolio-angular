@@ -1,0 +1,274 @@
+$purple: #7e6d35;
+$grey: #FBDA69;
+$l-grey: #fde9a5;
+$dark: #c9ae54;
+$white: rgb(255, 255, 255);
+$time: 3s;
+
+@mixin animation($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-o-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin animation-use($name) {
+  -webkit-animation: $name $time infinite linear;
+  -moz-animation: $name $time infinite linear;
+  -o-animation: $name $time infinite linear;
+  animation: $name $time infinite linear;
+}
+
+@mixin turn() {
+  from {
+    transform: rotate(-0.08turn);
+  }
+  to {
+    transform: rotate(-1.08turn);
+  }
+}
+
+@include animation(rotate) {
+  @include turn();
+}
+
+@include animation(hideEye) {
+  0%,
+  10%,
+  85% {
+    margin-top: 0;
+    height: 50px;
+  }
+  30%,
+  65% {
+    margin-top: 20px;
+    height: 30px;
+  }
+}
+
+@include animation(blink) {
+  0%,
+  10%,
+  85% {
+    bottom: 0;
+  }
+  30%,
+  65% {
+    bottom: 20px;
+  }
+
+  @include turn();
+}
+
+.loading {
+  margin: 0;
+  background: $purple;
+  overflow: hidden;
+
+  .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 260px;
+    height: 260px;
+    margin-left: -130px;
+    margin-top: -130px;
+
+    .track {
+      width: 100%;
+      height: 100%;
+      border: solid $white;
+      border-width: 5px 5px 3px 0;
+      border-top-color: transparent;
+      border-radius: 50%;
+      margin-left: -3px;
+      margin-top: -3px;
+      @include animation-use(rotate);
+
+      .mouse {
+        position: absolute;
+        right: 31px;
+        top: 18px;
+        width: 25px;
+        height: 25px;
+        background: $white;
+        border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+        transform: rotate(-95deg);
+
+        &:before,
+        &:after {
+          position: absolute;
+          content: "";
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: inherit;
+        }
+
+        &:before {
+          left: 5px;
+          top: -4px;
+        }
+
+        &:after {
+          left: 20px;
+          top: 11px;
+        }
+      }
+    }
+
+    .face {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 130px;
+      height: 130px;
+      margin-left: -65px;
+      margin-top: -65px;
+
+      &:before,
+      &:after {
+        position: absolute;
+        content: "";
+        width: 50%;
+        height: 100%;
+      }
+
+      &:before {
+        background: $grey;
+        border-top-left-radius: 65px;
+        border-bottom-left-radius: 55px;
+      }
+
+      &:after {
+        left: 50%;
+        background: $l-grey;
+        border-top-right-radius: 65px;
+        border-bottom-right-radius: 55px;
+      }
+
+      .ears-container {
+        position: absolute;
+        top: -8px;
+        width: 130px;
+        height: 50px;
+
+        &:before,
+        &:after {
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 0;
+          border-top: 35px solid transparent;
+          border-bottom: 35px solid transparent;
+        }
+
+        &:before {
+          border-left: 35px solid $grey;
+        }
+
+        &:after {
+          right: 0;
+          border-right: 35px solid $l-grey;
+        }
+      }
+
+      .eyes-container {
+        position: absolute;
+        overflow: hidden;
+        left: 50%;
+        top: 30px;
+        width: 106px;
+        height: 50px;
+        margin-left: -53px;
+        z-index: 1;
+        @include animation-use(hideEye);
+
+        .eye {
+          position: relative;
+          bottom: 0;
+          float: left;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          color: $grey;
+          background: $white;
+          @include animation-use(blink);
+
+          &:after {
+            position: absolute;
+            content: "";
+            top: 4px;
+            right: 14px;
+            width: 12px;
+            height: 12px;
+            border-radius: inherit;
+            background: $dark;
+          }
+
+          &:last-child {
+            float: right;
+            color: $l-grey;
+          }
+        }
+      }
+
+      .phiz {
+        position: absolute;
+        left: 50%;
+        top: 66px;
+        width: 32px;
+        height: 48px;
+        margin-left: -16px;
+        z-index: 1;
+
+        .nose {
+          width: 100%;
+          height: 15px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+          background: $dark;
+        }
+
+        .lip {
+          position: relative;
+          left: 50%;
+          width: 4px;
+          height: 12px;
+          margin-left: -2px;
+          background: $dark;
+
+          &:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 5px;
+            background: darken($dark, 5%);
+          }
+        }
+
+        .mouth {
+          position: relative;
+          left: 50%;
+          width: 20px;
+          height: 6px;
+          margin-left: -13px;
+          background: $white;
+          border: 3px solid $dark;
+          border-bottom-right-radius: 12px;
+          border-bottom-left-radius: 12px;
+        }
+      }
+    }
+  }
+}

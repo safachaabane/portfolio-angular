@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LoadingService } from './services/loading.service';
+import { TranslateDetectService } from './services/translate-detect.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,10 +7,36 @@ import { LoadingService } from './services/loading.service';
 })
 export class AppComponent  {
   title = 'safa chaabane';
-  loading:boolean=false;
-  constructor(private loadingService:LoadingService) {}
+  loading:boolean=true;
+  constructor(private translateDetectService : TranslateDetectService) {}
   ngOnInit()
   {
-    this.loading=this.loadingService.loading;
+    const storage: any = typeof localStorage !== 'undefined' ? localStorage.getItem("lang") : null;
+  if(storage){
+    setTimeout(() => {
+      this.translateDetectService.detect(storage)
+      this.loading=false;
+ }, 3000);
+  }else{
+    if (typeof navigator !== 'undefined') {
+      const userLang = navigator.language || 'en';
+      const languageCode = userLang.split('-')[0];
+      if (["en","fr","de"].includes(languageCode)){
+         setTimeout(() => {
+           this.translateDetectService.detect(languageCode)
+           this.loading=false;
+           localStorage.setItem("lang",languageCode);
+      }, 3000);
+      }else{
+        setTimeout(() => {
+          this.translateDetectService.notDetect();
+          localStorage.setItem("lang","en");
+          this.loading=false;
+     }, 3000);
+      
+      }
+    }
+    }
   }
+
 }
