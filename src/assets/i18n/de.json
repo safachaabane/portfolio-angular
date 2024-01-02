@@ -1,16 +1,21 @@
 {
-    "menu":[{"id":1,
-"item":"A propos","link":"/"},
-{"id":2,"item":"Mes services","link":"/"},
-{"id":3,"item":"Mes compétances","link":"/"},
-{"id":4,"item":"Mes projets","link":"/"},
-{"id":5,"item":"Blog","link":"/"},
-{"id":6,"item":"Contact"}],
-"slider":{"name1":"Je suis",
-"name2":"Safa Chaabane",
-"work":"Développeur Full stack",
-"slogan":"Codeuse passionnée, créatrice d'univers web exceptionnels",
-"contact":"Let's Talk",
-"cv":"Telecharger"
-}
-}
+    "name":"test",
+    "menu":[
+        {"id":1,
+        "item":"A propos","link":"aboutme"},
+        {"id":2,"item":"Mes services","link":"services"},
+        {"id":3,"item":"Mes compétances","link":"competances"},
+        {"id":4,"item":"Mes projets","link":"projets"},
+        {"id":5,"item":"Blog","link":"blog"},
+        {"id":6,"item":"Contact","link":"contact"}
+    ],
+    "slider":{
+        "salutation":"Salut",
+        "name1":"Je suis",
+        "name2":"Safa Chaabane",
+        "work":"Développeur Full stack",
+        "slogan":"Codeuse passionnée, créatrice d'univers web exceptionnels",
+        "contact":"Let's Talk",
+        "cv":"Telecharger CV"
+    }
+    }
