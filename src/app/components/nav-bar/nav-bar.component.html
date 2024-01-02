@@ -1,1 +1,13 @@
-<p>nav-bar works!</p>
+<div class="sticky-top nav-bar d-flex justify-content-around align-items-center p-2">
+<div class="nav-bar-logo" routerLink="/"><img class="h-100 w-100" src="../../../assets/log-safa-chaabane.png" alt="logo safa chaabane"></div>
+
+<ul class="d-flex justify-content-around list-unstyled nav-bar-menu align-items-center">
+    <li class="px-3" *ngFor="let item of jsonData"> <a [routerLink] = "['/']"  fragment={{item?.link}}> {{item?.item}}</a></li>
+</ul>
+<ul class=" d-flex justify-content-around nav-bar-lang align-items-center">
+    <li (click)="onChange('en')"><a  href="https://zany-space-orbit-xr69497ppqx2vgqv-4200.app.github.dev/"><img src="../../../assets/en.jpg" alt="EN"/></a></li>
+    <li (click)="onChange('fr')"><a href="https://zany-space-orbit-xr69497ppqx2vgqv-4200.app.github.dev/"><img src="../../../assets/fr.jpg" alt="FR"/></a></li>
+    <li (click)="onChange('de')"><a href="https://zany-space-orbit-xr69497ppqx2vgqv-4200.app.github.dev/"><img src="../../../assets/de.jpg" alt="DE"/></a></li>
+  </ul>
+   
+</div>

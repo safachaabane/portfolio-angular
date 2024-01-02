@@ -13,7 +13,6 @@ import { LastProjectsComponent } from './components/last-projects/last-projects.
 import { ServicesComponent } from './components/services/services.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SliderComponent } from './components/slider/slider.component';
-
 import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient,HttpClientModule } from '@angular/common/http';
