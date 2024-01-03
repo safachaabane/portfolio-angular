@@ -1,34 +1,32 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
+import { Component, Pipe, PipeTransform } from '@angular/core';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faArrowDown, faEnvelope, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+@Pipe({
+  name: 'wrapWithQuotes'
+})
+export class WrapWithQuotesPipe implements PipeTransform {
+  transform(value: string): string {
+    return ` "${value}" `;
+  }
+}
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
+
   styleUrl: './slider.component.scss'
 })
 
-export class SliderComponent implements OnInit {
-  jsonData: any; 
-
-  constructor(private httpClient: HttpClient) {}
+export class SliderComponent {
+  faPaperPlane=faPaperPlane
+  faArrowDown=faArrowDown
+  faLinkedinIn=faLinkedinIn
+  faMailchimp=faEnvelope
+  faGithub=faGithub
+  constructor() {}
 
   ngOnInit() {
-    const currentLanguage = localStorage.getItem('lang') || 'en';
-    const jsonFilePath = `assets/i18n/${currentLanguage}.json`;
-
-    this.httpClient.get(jsonFilePath).subscribe(
-      (data: any) => {
-        this.jsonData = data?.slider;
-       
-      },
-      error => {
-        console.error(`Error loading ${currentLanguage}.json:`, error);
-      }
-    );
+  
   }
 
-  onChange(language: string) {
-    localStorage.setItem('lang', language);
-    this.ngOnInit();
-  }
+
 }

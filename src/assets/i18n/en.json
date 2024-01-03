@@ -2,8 +2,8 @@
     "name":"test",
     "menu":[
         {"id":1,
-        "item":"about me","link":"aboutme"},
-        {"id":2,"item":"Our services","link":"services"},
+        "item":"A propos","link":"aboutme"},
+        {"id":2,"item":"Mes services","link":"services"},
         {"id":3,"item":"Mes compétances","link":"competances"},
         {"id":4,"item":"Mes projets","link":"projets"},
         {"id":5,"item":"Blog","link":"blog"},
@@ -13,9 +13,12 @@
         "salutation":"Salut",
         "name1":"Je suis",
         "name2":"Safa Chaabane",
-        "work":"Développeur Full stack",
+        "work":"Développeuse web",
+        "description":"Concevant des solutions interactives et performantes pour répondre aux besoins des entreprises à travers le monde.",
         "slogan":"Codeuse passionnée, créatrice d'univers web exceptionnels",
         "contact":"Let's Talk",
-        "cv":"Telecharger CV"
+        "cv":"Télécharger CV",
+        "scroll":"Scroll Down",
+        "socialNetwork":"Check OutMy"
     }
     }

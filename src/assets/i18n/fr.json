@@ -13,9 +13,12 @@
     "salutation":"Salut",
     "name1":"Je suis",
     "name2":"Safa Chaabane",
-    "work":"Développeur Full stack",
+    "work":"Développeuse web",
+    "description":"Concevant des solutions interactives et performantes pour répondre aux besoins des entreprises à travers le monde.",
     "slogan":"Codeuse passionnée, créatrice d'univers web exceptionnels",
     "contact":"Let's Talk",
-    "cv":"Telecharger CV"
+    "cv":"Télécharger CV",
+    "scroll":"Scroll Down",
+    "socialNetwork":"Check Out My"
 }
 }

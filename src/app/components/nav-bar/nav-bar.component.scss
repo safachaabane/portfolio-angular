@@ -1,4 +1,5 @@
 .nav-bar{
+    background-color: white;
     &-logo{
         height: 60px;
         cursor: pointer;
@@ -18,6 +19,7 @@
         max-width: 100px;
         li{
             list-style: none;
+            cursor: pointer;
         }
         img{
             width:20px;
