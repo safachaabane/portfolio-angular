@@ -8,21 +8,20 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 
 const routes: Routes = [
   { path: '', children: [], component: AppComponent },
+ 
   {
     path: ':lang',
     pathMatch: 'full',
     canActivate: [languageGuard],
-    component: HomeComponent,
+    component:HomeComponent  
   },
-  {
-    path: 'projects',
-    pathMatch: 'full',
-    canActivate: [languageGuard],
-    component: ProjectsComponent, // Ajoutez cette ligne pour le composant ProjectsComponent
-  },
+  { path: ':lang/projects',
+  canActivate: [languageGuard],
+  component: ProjectsComponent},
+  { path: '404', component: ErrorComponent },
   {
     path: '**',
-    component:ErrorComponent
+   redirectTo:'404'
   }
 ];
 

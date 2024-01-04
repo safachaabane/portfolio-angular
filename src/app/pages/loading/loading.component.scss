@@ -1,8 +1,8 @@
-$purple: #7e6d35;
+$purple: #ffff;
 $grey: #FBDA69;
 $l-grey: #fde9a5;
 $dark: #c9ae54;
-$white: rgb(255, 255, 255);
+$white: #c9ae54;
 $time: 3s;
 
 @mixin animation($name) {
@@ -70,7 +70,7 @@ $time: 3s;
 
 .loading {
   margin: 0;
-  background: $purple;
+  background: #ffffff;
   overflow: hidden;
 
   .loader {
@@ -85,7 +85,7 @@ $time: 3s;
     .track {
       width: 100%;
       height: 100%;
-      border: solid $white;
+      border: solid #f1c73a;
       border-width: 5px 5px 3px 0;
       border-top-color: transparent;
       border-radius: 50%;
@@ -99,7 +99,7 @@ $time: 3s;
         top: 18px;
         width: 25px;
         height: 25px;
-        background: $white;
+        background: #f1c73a;
         border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
         transform: rotate(-95deg);
 
@@ -200,7 +200,7 @@ $time: 3s;
           height: 50px;
           border-radius: 50%;
           color: $grey;
-          background: $white;
+          background: #ffffff;
           @include animation-use(blink);
 
           &:after {

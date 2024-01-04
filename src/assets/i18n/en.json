@@ -19,6 +19,18 @@
         "contact":"Let's Talk",
         "cv":"Télécharger CV",
         "scroll":"Scroll Down",
-        "socialNetwork":"Check OutMy"
+        "socialNetwork":"Check Out My"
+    },
+    "services":{
+        "title":"Services | Offres",
+        "desc1":"Je suis une développeuse web passionnée avec 1 an et demi d'expérience dans la création de sites et d'applications. Ma formation solide en informatique m'a dotée de compétences robustes en programmation, renforcées par mes projets personnels et professionnels. Je maîtrise diverses technologies telles qu'HTML, CSS, JavaScript, PHP, et Python, utilisant des frameworks tels qu'Angular, React.js, Express.js et Laravel. Mes connaissances approfondies en bases de données s'accompagnent d'une utilisation experte de Git et d'une compréhension solide de la méthodologie Scrum.",
+        "desc2":"Participant à de nombreux projets en équipe, j'ai acquis la capacité à travailler de manière autonome et à gérer efficacement mon temps. Mon parcours a renforcé mes compétences en communication et en résolution de problèmes, facilitant mon intégration dans des équipes pluridisciplinaires. En dehors de mon travail, je recherche continuellement des opportunités d'apprentissage pour perfectionner mes compétences en développement web. Ma passion pour les nouvelles technologies se concrétise dans ma participation à des projets innovants, témoignant de mon esprit d'initiative et de ma volonté de relever de nouveaux défis.",
+        "list":[
+            {"id":1,"title":"Développement d'Applications Web: ","description":"Conception et mise en œuvre d'applications web sur mesure répondant aux besoins spécifiques de vos clients."},
+            {"id":2,"title":"Intégration web: ","description":"Collaboration avec des designers pour intégrer des maquettes graphiques en des sites web fonctionnels et esthétiques."},
+            {"id":3,"title":"Maintenance Continue: ","description":"Analyser et vérifier que le code respect les bonnes pratiques, et veiller à sa qualité (lisibilité, clarté, consistance). Ainsi, le code devient plus maintenable, mieux architecturé et le nombre de bugs est réduit."}
+      
+      
+        ]
     }
     }

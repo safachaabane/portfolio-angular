@@ -3,7 +3,7 @@
 
 <ul class="d-flex justify-content-around list-unstyled nav-bar-menu align-items-center">
   @for (item of "menu"|translate; track item.id) { 
-  <li class="px-3"> <a [routerLink] = "[url]"  fragment={{item?.link}}> {{item?.item}}</a></li>
+  <li class="px-3"> <a routerLink="#services"> {{item?.item}}</a></li>
     } @empty {
       <span>Empty list of users</span>
     }

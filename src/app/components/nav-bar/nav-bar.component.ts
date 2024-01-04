@@ -11,7 +11,7 @@ export class NavBarComponent {
   constructor(private translateDetectService: TranslateDetectService) {}
   url : String = "";
   ngOnInit() {
-  this.url="/"+localStorage.getItem("lang");
+  this.url=localStorage.getItem("lang") || "";
  
   }
 
