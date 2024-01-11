@@ -1,1 +1,33 @@
-<p>skills works!</p>
+<div class="skills">
+<div class="skills-block row  m-auto">
+    <div class="row">
+        <div class="col position-relative">
+            <p class="skills-note position-absolute">{{'skills.note' | translate}}</p><h1 class="skills-title py-3">{{'skills.title'| translate}}</h1>
+            <p>{{'skills.desc'| translate}}</p></div>
+    </div>
+    <div class="col-lg-6 position-relative">
+        <img class=" skills-imgblock h-auto w-100" src="../../../assets/skills.jpg" alt="skills">
+    </div>
+   <div class="col-lg-6 position-relative">
+    <div class="row">
+        @for (item of "skills.listSkills" |translate ; track $index) {
+            <div class="row" key=$index>
+                <p class="skills-item-title mb-1 mt-3">{{item.title}}</p>
+              <div class="row flex-wrap justify-content-start">
+                @for (itemlist of item.list; track $index) {
+                    <div class="col position-relative skills-col-2 m-2">
+                        <div class="skills-item">
+                       <img class="skills-item-img m-auto d-block" src="../../assets/icons/skills/{{ itemlist}}.png" alt="" />
+                       <p class="text-center skills-item-name">{{itemlist | uppercase}}</p>
+                    </div></div>
+                       }
+              </div>
+            </div>
+        }@empty {
+            <span>Please wait</span>
+          }
+    </div>
+   </div>
+   
+</div>
+</div>

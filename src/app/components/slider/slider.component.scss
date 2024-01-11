@@ -1,9 +1,9 @@
 @import "../../../styles.scss";
 @import url('https://fonts.cdnfonts.com/css/happy-halloween');
 .slider{
-    max-height: 100vh;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    height:100vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
     &-salutation{
         font-size: 2rem;
         font-weight: 700;
@@ -137,14 +137,19 @@
 }
 @media screen and (max-width : 1200px) {
     .slider{
+        height: auto;
         &-img{
-            max-height: auto;
+            max-height: none;
+            img{
+                height:auto;
+            }
         }
      
 }
 }
 @media screen and (max-width : 900px) {
     .slider{
+      
         &-salutation,&-name2,&-work{
             font-size: 1rem;
             font-weight: 500;
@@ -154,6 +159,17 @@
             padding: 10px;
             width: 42px;
             height: 42px;;
+        }
+        &-slogan{
+            float: none;
+            font-size: 19px;
+            margin-bottom: 0px;
+            display:block;
+            margin-left: auto;
+            margin-right:auto;
+            z-index: 2;
+            position: inherit;
+                                                    
         }
 }
 }

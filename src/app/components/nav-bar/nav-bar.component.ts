@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import { TranslateDetectService } from '../../services/translate-detect.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,7 +9,7 @@ import { TranslateDetectService } from '../../services/translate-detect.service'
 })
 export class NavBarComponent {
 
-  constructor(private translateDetectService: TranslateDetectService) {}
+  constructor(private translateDetectService: TranslateDetectService, private router : Router) {}
   url : String = "";
   ngOnInit() {
   this.url=localStorage.getItem("lang") || "";
@@ -20,4 +21,5 @@ export class NavBarComponent {
     localStorage.setItem('lang', language);
     this.translateDetectService.detect(language)
   }
+ 
 }

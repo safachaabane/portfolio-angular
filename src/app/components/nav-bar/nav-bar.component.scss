@@ -1,9 +1,11 @@
 .nav-bar{
     background-color: white;
-    overflow: hidden;
     &-logo{
         height: 60px;
         cursor: pointer;
+        @media screen and (max-width : 992px) {
+            height: 40px;
+        }
     }
     &-menu{
         li{
