@@ -40,5 +40,19 @@
     "desc":"Spécialiste en développement web passionné par l'intégration de maquettes et la résolution de problèmes dans le domaine des applications et sites web modernes.",
     "listSkills":[{"title":"Language de programmation","list":["ts","js","python","php"]},
     {"title":"Développement web","list":["nodejs","reactjs","redux","nextjs","angular","gatsby","bootstrap","materialui","tailwind","scss-sass","wordpress", "expressjs","laravel","postman"]},{"title":"SGBD","list":["mongodb","mysql"]},{"title":"DevOps","list":["git","github","gitlab","hostinger","ovh"]},{"title":"Web service","list":["restapi","graphql"]}]
+},
+"qualifications":{
+    "note":"Here's My",
+    "title":"Qualifications",
+    "titleEduc":"Education",
+    "education":[{"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
+    {"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
+    {"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
+    {"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]}],
+    "titleExep":"Experience",
+    "experience":[{"diplomaName":"workName","schoolName":"companyName","date":"date"},
+    {"diplomaName":"workName","schoolName":"companyName","date":"date"},
+    {"diplomaName":"workName","schoolName":"companyName","date":"date"},
+    {"diplomaName":"workName","schoolName":"companyName","date":"date"}]
 }
 }

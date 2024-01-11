@@ -19,6 +19,7 @@ import { HttpClient,HttpClientModule } from '@angular/common/http';
 import { LoadingComponent } from './pages/loading/loading.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { QualificationsComponent } from './qualifications/qualifications.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -40,7 +41,8 @@ export function HttpLoaderFactory(http:HttpClient){
     NavBarComponent,
     SliderComponent,
     LoadingComponent,
-    ErrorComponent
+    ErrorComponent,
+    QualificationsComponent
   ],
   imports: [
     TranslateModule.forRoot({
