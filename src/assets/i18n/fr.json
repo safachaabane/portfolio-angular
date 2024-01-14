@@ -44,13 +44,14 @@
 "qualifications":{
     "note":"Here's My",
     "title":"Qualifications",
-    "titleEduc":"Education",
-    "education":[{"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
+    "titleExep":"Experience",
+    "btn":"my tasks",
+    "experience":[{"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
     {"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
     {"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]},
     {"workName":"workName","companyName":"companyName","date":"date","tasks":["task1","task2","task3"]}],
-    "titleExep":"Experience",
-    "experience":[{"diplomaName":"workName","schoolName":"companyName","date":"date"},
+    "titleEduc":"Education",
+    "education":[{"diplomaName":"workName","schoolName":"companyName","date":"date"},
     {"diplomaName":"workName","schoolName":"companyName","date":"date"},
     {"diplomaName":"workName","schoolName":"companyName","date":"date"},
     {"diplomaName":"workName","schoolName":"companyName","date":"date"}]

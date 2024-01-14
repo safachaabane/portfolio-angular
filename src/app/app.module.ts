@@ -19,7 +19,8 @@ import { HttpClient,HttpClientModule } from '@angular/common/http';
 import { LoadingComponent } from './pages/loading/loading.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { QualificationsComponent } from './qualifications/qualifications.component';
+import { QualificationsComponent } from './components/qualifications/qualifications.component';
+import { TasksQualificationsComponent } from './components/tasks-qualifications/tasks-qualifications.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -42,7 +43,8 @@ export function HttpLoaderFactory(http:HttpClient){
     SliderComponent,
     LoadingComponent,
     ErrorComponent,
-    QualificationsComponent
+    QualificationsComponent,
+    TasksQualificationsComponent
   ],
   imports: [
     TranslateModule.forRoot({
