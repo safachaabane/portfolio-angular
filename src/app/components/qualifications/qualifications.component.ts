@@ -6,7 +6,7 @@ import {faCircleArrowDown} from '@fortawesome/free-solid-svg-icons';
   styleUrl: './qualifications.component.scss'
 })
 export class QualificationsComponent {
-  show : boolean = false;
-  faArrowDown=faCircleArrowDown
+  // show : boolean = false;
+  // faArrowDown=faCircleArrowDown
  
 }
