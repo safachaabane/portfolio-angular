@@ -1,1 +1,20 @@
-<p>services works!</p>
+<div class="services">
+ <div class="services-block m-auto d-block">
+    <div class="row m-auto py-5 justify-contentrdf-between align-items-center">
+        <div class="col-xl-4  position-relative services-block-col mx-xl-0 m-auto"><p class="services-block-note position-absolute">{{'services.note' | translate}}</p><h2 class="services-block-title py-3">{{'services.title'| translate}}</h2></div>
+        <div class="col-xl-8">
+          <p class="pt-3  services-block-welcome">{{'services.welcome'| translate}}</p> <p class="pt-3  services-block-desc">{{'services.desc1'| translate}}</p> <p class="py-3 services-block-desc">{{'services.desc2'| translate}}</p></div>
+    </div>
+    <div class="row">
+      @for (item of "services.list" | translate; track item.id) { 
+        <div class="col-lg-4 p-4">
+          <div class=" services-block-list p-4 d-flex justify-content-center  flex-column">
+        <div class="services-block-list-descblock">  <div class="services-block-list-icon"><fa-icon *ngIf="item.icon === 'faCode'" [icon]="faCode"></fa-icon> <fa-icon *ngIf="item.icon === 'faCircleExclamationCheck'" [icon]="faCircleExclamationCheck"></fa-icon><fa-icon *ngIf="item.icon === 'faWandMagicSparkles'" [icon]="faWandMagicSparkles"></fa-icon></div><div> <h2> {{item?.title}}</h2></div></div>
+         <p class="d-none services-block-list-desc py-4"> {{item?.description}}</p>
+        </div></div>
+          } @empty {
+            <span>Please wait</span>
+          }
+    </div>
+ </div>
+</div>

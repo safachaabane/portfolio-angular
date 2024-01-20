@@ -1,0 +1,114 @@
+@import "../../../styles.scss";
+@import url('https://fonts.cdnfonts.com/css/happy-halloween');
+.services{
+
+    background:$yellow;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 95vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    &-block{
+        max-width:1500px;
+        width: 90%;
+        &-col{
+            max-width: 1300px;
+        }
+        &-note{
+            top:0;
+            left:-20px;
+            transform: rotate(-30deg);
+            color: $purple;
+
+        }
+        &-title{
+            font-size: 5rem;
+            font-weight: 700;
+            
+            @media screen and (max-width: 992px) {
+                font-size: 2rem;
+            font-weight: 600;
+            }
+           
+        } 
+        &-desc{
+                line-height: 40px;
+        }
+        &-welcome{
+            line-height: 40px;
+            font-weight: 600;
+            font-family: 'Happy Halloween', sans-serif;
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+        &-list{
+            padding-top: 3%;
+            padding-bottom: 7%;
+            border-bottom: 3px solid $purple;
+            background-color:$white;
+            color: $black;
+            height: 100%;
+            transition: all 0.15s;
+            min-height: 400px;
+            *{
+                transition: all 0.15s;
+                
+            }
+            &:hover{
+                background-color:$purple;
+                color: white;
+                .services-block-list-icon{
+                    font-size: 30px;
+                    color: $purple;
+                    background-color: $white;
+                    border-radius: 50%;
+                    border-bottom-right-radius: 0;
+                    padding: 10px 15px;
+                    width: fit-content;
+                    margin:0;
+                    margin-right: 15px;
+                }
+                .services-block-list-descblock{
+                    display: flex;
+                    flex-wrap: nowrap;  
+                    justify-content: flex-start; 
+                    align-items: center;
+                   
+                }
+                .services-block-list-desc{
+                    display: block !important;
+                    line-height: 30px;
+                    font-size: 18px;
+                }
+                h2{
+                    font-size: 1.35rem;
+                }
+            }
+        h2{
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: center;
+                transition: color 0.05s !important;
+                @media screen and (max-width: 992px) {
+                    font-size: 1.25rem;
+                font-weight: 500;
+                
+                }
+            }
+            &-icon{
+                color: $white;
+                background-color: $purple;
+                border-radius: 50%;
+                border-bottom-right-radius: 0;
+                padding: 10px 15px;
+                width: 130px;
+                margin:15px  auto;
+               font-size: 80px;
+               display: flex;
+               justify-content: center;
+            }
+           
+        }
+    }
+}

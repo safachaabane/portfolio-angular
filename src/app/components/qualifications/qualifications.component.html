@@ -1,0 +1,46 @@
+<div class="qualifications m-0">
+    <div class=" qualifications-block  mx-auto d-block">
+    <div class="row">
+        <div class="col position-relative">
+            <p class="qualifications-note position-absolute">{{'qualifications.note' | translate}}</p><h2 class="qualifications-title py-3">{{'qualifications.title'| translate}}</h2>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-lg-12 qualifications-experience">
+            <h3 class=" qualifications-experience-title  py-3">{{'qualifications.titleEduc' | translate}}</h3>
+           <div class="row">
+            @for (itemEduc of 'qualifications.education' | translate ; track $index) {
+                <div class="col-xl-3 col-lg-6 qualifications-experience-block">
+                <div key={$index} class=" qualifications-experience-block-item mx-auto h-100"> <h4 class="position-relative qualifications-experience-block-item-title"> {{itemEduc?.diplomaName}}</h4><p class="qualifications-experience-block-item-date">{{itemEduc?.date}}</p><p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" />
+                    {{itemEduc?.schoolName}}</p></div></div>
+            }@empty {
+                <span>Please wait</span>
+              }
+           </div>
+           </div>
+    </div>   
+ 
+        <div class="col-lg-12 qualifications-experience">
+            <h3 class=" qualifications-experience-title py-3">{{'qualifications.titleExep' | translate}}</h3>
+           <div class=" qualifications-experience-block  qualifications-experience-block-2">
+            @for (itemEduc of 'qualifications.experience' | translate ;  track itemEduc.id) {
+                <div [class]="['qualifications-experience-block-item position-relative', (itemEduc.id % 2 === 0 ? 'even' : 'odd'),(itemEduc.id !== 0 && 'qualifications-experience-block-item-margin')].join(' ')"> 
+                    <div class="row"><div class="col-9"><h4 class="position-relative qualifications-experience-block-item-title"> {{itemEduc?.workName}}</h4></div>
+                    <div class="col-3"><p class="qualifications-experience-block-item-date">{{itemEduc?.date}}</p></div></div>
+                    <p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" />{{itemEduc?.companyName}}</p>
+                    <!-- <button class="qualifications-experience-block-item-btn" type="button" (click)="show = !show">{{'qualifications.btn' | translate}}  <span> <fa-icon size="xl" [icon]="faArrowDown"></fa-icon> </span></button> -->
+                   <ul class="qualifications-experience-block-item-tasks">
+                    @for (item of itemEduc?.tasks; track $index) {
+                        <li key={$index}>{{item}}</li>
+                       }
+                    </ul>
+                    <p class="qualifications-experience-block-item-tools">{{itemEduc.tools}}</p>
+                </div>
+            }@empty {
+                <span>Please wait</span>
+              }
+           </div>
+        </div>
+      
+</div>
+</div>

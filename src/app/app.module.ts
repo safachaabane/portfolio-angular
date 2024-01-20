@@ -12,13 +12,15 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { LastProjectsComponent } from './components/last-projects/last-projects.component';
 import { ServicesComponent } from './components/services/services.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { SliderComponent } from './components/slider/slider.component';
-
+import { SliderComponent, WrapWithQuotesPipe } from './components/slider/slider.component';
 import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient,HttpClientModule } from '@angular/common/http';
 import { LoadingComponent } from './pages/loading/loading.component';
 import { ErrorComponent } from './pages/error/error.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { QualificationsComponent } from './components/qualifications/qualifications.component';
+import { TasksQualificationsComponent } from './components/tasks-qualifications/tasks-qualifications.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -27,6 +29,7 @@ export function HttpLoaderFactory(http:HttpClient){
 
 @NgModule({
   declarations: [
+    WrapWithQuotesPipe,
     AppComponent,
     HomeComponent,
     ProjectsComponent,
@@ -39,7 +42,9 @@ export function HttpLoaderFactory(http:HttpClient){
     NavBarComponent,
     SliderComponent,
     LoadingComponent,
-    ErrorComponent
+    ErrorComponent,
+    QualificationsComponent,
+    TasksQualificationsComponent
   ],
   imports: [
     TranslateModule.forRoot({
@@ -51,11 +56,15 @@ export function HttpLoaderFactory(http:HttpClient){
     }),
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [
     provideClientHydration()
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ 
+  
+ }

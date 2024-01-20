@@ -1,0 +1,155 @@
+@import "../../../styles.scss";
+
+.qualifications{    
+    background-color:$yellow;
+    min-height: 95vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    &-block{
+    max-width:1500px;
+    width: 90%;
+    }
+
+    &-note{
+    top:0;
+    left:-20px;
+    transform: rotate(-30deg);
+    color: $purple;
+
+}
+&-title{
+    font-size: 5rem;
+    font-weight: 700;
+    @media screen and (max-width: 992px) {
+    font-size: 2rem;
+    font-weight: 600;
+    }
+}
+&-experience{
+    &-title{
+        color:$purple;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    &-block{   
+        border-bottom:4px solid $yellow; 
+      &-2{
+        position: relative;
+        max-width: 1458px;
+        @media screen and (min-width:1200px) {
+            &:after{
+                content:"";
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 2px;
+                background-color: $purple;
+                top: 0%;
+                transform: translateX(-50%);
+                left: calc(50% + 1px );
+            }
+      }
+        }
+       &-item{
+            max-width: 700px;
+            padding:35px;
+            background-color:rgba(253,233,165,0.3);
+            border-left:3px solid $purple;
+        &-margin{
+           margin-top: 20px;
+            @media screen and (min-width:1200px) {
+                 margin-top: -60px;
+            }
+        }
+        &-title{
+            font-size: 18px;
+            &:after{
+                content:"";
+                position:absolute;
+                background-color:$purple;
+                left:-35px;
+                transform: translateY(-50%);
+                top: 50%;
+                clip-path: polygon(60% 0, 100% 50%, 60% 100%, 0 100%, 0 0);
+                display:block;
+                width:30px;
+                height:20px;
+            }
+        }
+        &-date{
+            font-style:italic;
+            font-size:12px;
+            background-color: $purple;
+            display: inline-block;
+            padding: 5px;
+            color: $white;
+        }
+        &-company-logo{
+            width: 25px;
+            height: 25px;
+            border-radius:50% ;
+        }
+        &-tasks{
+            font-size: 14px;
+        }
+        &-tools{
+            font-size: 14px;
+            font-weight: 500;
+            font-style: italic;
+            text-align: center;
+        }
+        // &-btn{
+        //     width: 100%;
+        //     display: flex;
+        //     justify-content: space-between;
+        //     background-color:transparent;
+        //     border:none;
+        //     span{
+        //         color:$purple;
+        //     }
+        // }
+    
+    }
+       
+   @media screen and (min-width:1200px) {
+    .even{
+        margin-right: calc(50% + 30px) !important;
+        &:after{
+            content:"";
+            position: absolute;
+            display: block;
+            height: 2px;
+            width: 30px;
+            background-color: $purple;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 100%;
+        }
+    } 
+    .odd{
+        margin-left: calc(50% + 30px) !important;
+        &:after{
+            content:"";
+            position: absolute;
+            display: block;
+            height: 2px;
+            width: 31px;
+            background-color: $purple;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 100%;
+        }
+    } 
+   }
+
+   .even{
+    margin-right: auto ;
+    
+  
+} 
+.odd{
+    margin-left: auto ;
+} 
+    }
+}
+}

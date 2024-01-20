@@ -1,0 +1,57 @@
+@import "../../../styles.scss";
+
+.skills{    
+    min-height: 95vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    &-block{
+    max-width:1500px;
+    width: 90%;
+    }
+    &-imgblock{
+        max-width:600px
+    }
+    &-note{
+    top:0;
+    left:-20px;
+    transform: rotate(-30deg);
+    color: $purple;
+
+}
+&-title{
+    font-size: 5rem;
+    font-weight: 700;
+    @media screen and (max-width: 992px) {
+    font-size: 2rem;
+    font-weight: 600;
+    }
+}
+&-col-2{
+    max-width:70px;
+}
+&-item{
+    background-color: $l-yellow;
+    border-radius:5px;
+    height: 100%;
+    width: 70px;
+    padding:5px;
+    &:hover{
+        background-color:$yellow;
+    }
+&-title{
+    color:$purple;
+    font-weight:600;
+    font-size:18px;
+}
+&-img{
+    width:100%;
+    height:100%;
+    max-width: 40px;
+    max-height: 40px;
+}
+&-name{
+    font-size:11px;
+    padding-top: 4px;
+}
+}
+}
