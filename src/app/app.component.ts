@@ -16,7 +16,7 @@ export class AppComponent  {
     setTimeout(() => {
       this.translateDetectService.detect(storage)
       this.loading=false;
- }, 3000);
+ }, 1000);
   }else{
     if (typeof navigator !== 'undefined') {
       const userLang = navigator.language || 'en';
@@ -26,13 +26,13 @@ export class AppComponent  {
            this.translateDetectService.detect(languageCode)
            this.loading=false;
            localStorage.setItem("lang",languageCode);
-      }, 3000);
+      }, 1000);
       }else{
         setTimeout(() => {
           this.translateDetectService.notDetect();
           localStorage.setItem("lang","en");
           this.loading=false;
-     }, 3000);
+     }, 1000);
       
       }
     }

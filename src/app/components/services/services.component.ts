@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faCircleExclamation, faCode, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-services',
@@ -10,6 +10,8 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 export class ServicesComponent {
   faLinkedinIn=faLinkedinIn
   faCode=faCode
+  faCircleExclamationCheck=faCircleExclamation
+  faWandMagicSparkles=faWandMagicSparkles
   constructor() {}
 
   ngOnInit() {
