@@ -27,9 +27,9 @@
     "desc1":"Bienvenue sur mon portfolio ! Je suis une développeuse web passionnée avec 1,5 an d'expérience dans la création de sites et d'applications. Mon parcours académique en informatique a renforcé mes compétences en programmation, avec une maîtrise des langages tels que HTML, CSS, JavaScript, PHP, Python, et des frameworks comme Angular, React.js, Express.js, et Laravel. Mes connaissances approfondies en bases de données, ma gestion experte de Git, et ma pratique de la méthodologie Scrum font de moi une professionnelle polyvalente et efficace.",
     "desc2":"Ayant travaillé sur divers projets, de la collaboration avec des individus à des start-ups, j'ai développé une adaptabilité qui me permet de trouver des solutions sur mesure pour mes clients. En équipe, je suis autonome et efficace dans la gestion du temps, avec de solides compétences en communication et en résolution de problèmes. Passionnée par l'apprentissage continu, je m'investis dans des projets innovants, démontrant ainsi mon esprit d'initiative et ma volonté de relever de nouveaux défis. Explorez mon portfolio pour en savoir plus sur mon parcours professionnel et mes réalisations.",
     "list":[
-        {"id":1,"title":"Développement d'Applications Web: ","description":"Conception et mise en œuvre d'applications web sur mesure répondant aux besoins spécifiques de vos clients."},
-        {"id":2,"title":"Intégration web: ","description":"Collaboration avec des designers pour intégrer des maquettes graphiques en des sites web fonctionnels et esthétiques."},
-        {"id":3,"title":"Maintenance Continue: ","description":"Analyser et vérifier que le code respect les bonnes pratiques, et veiller à sa qualité (lisibilité, clarté, consistance). Ainsi, le code devient plus maintenable, mieux architecturé et le nombre de bugs est réduit."}
+        {"id":1,"icon":"faCode","title":"Développement d'Applications Web: ","description":"Conception et mise en œuvre d'applications web sur mesure répondant aux besoins spécifiques de vos clients."},
+        {"id":2,"icon":"faWandMagicSparkles","title":"Intégration web: ","description":"Collaboration avec des designers pour intégrer des maquettes graphiques en des sites web fonctionnels et esthétiques."},
+        {"id":3,"icon:"faCircleExclamationCheck","title":"Maintenance Continue: ","description":"Analyser et vérifier que le code respect les bonnes pratiques, et veiller à sa qualité (lisibilité, clarté, consistance). Ainsi, le code devient plus maintenable, mieux architecturé et le nombre de bugs est réduit."}
   
   
     ]

@@ -24,12 +24,12 @@
     "services":{
         "note":"What I Do",
         "title":"Services | Offres",
-        "desc1":"Je suis une développeuse web passionnée avec 1 an et demi d'expérience dans la création de sites et d'applications. Ma formation solide en informatique m'a dotée de compétences robustes en programmation, renforcées par mes projets personnels et professionnels. Je maîtrise diverses technologies telles qu'HTML, CSS, JavaScript, PHP, et Python, utilisant des frameworks tels qu'Angular, React.js, Express.js et Laravel. Mes connaissances approfondies en bases de données s'accompagnent d'une utilisation experte de Git et d'une compréhension solide de la méthodologie Scrum.",
-        "desc2":"Participant à de nombreux projets en équipe, j'ai acquis la capacité à travailler de manière autonome et à gérer efficacement mon temps. Mon parcours a renforcé mes compétences en communication et en résolution de problèmes, facilitant mon intégration dans des équipes pluridisciplinaires. En dehors de mon travail, je recherche continuellement des opportunités d'apprentissage pour perfectionner mes compétences en développement web. Ma passion pour les nouvelles technologies se concrétise dans ma participation à des projets innovants, témoignant de mon esprit d'initiative et de ma volonté de relever de nouveaux défis.",
+        "desc1":"Bienvenue sur mon portfolio ! Je suis une développeuse web passionnée avec 1,5 an d'expérience dans la création de sites et d'applications. Mon parcours académique en informatique a renforcé mes compétences en programmation, avec une maîtrise des langages tels que HTML, CSS, JavaScript, PHP, Python, et des frameworks comme Angular, React.js, Express.js, et Laravel. Mes connaissances approfondies en bases de données, ma gestion experte de Git, et ma pratique de la méthodologie Scrum font de moi une professionnelle polyvalente et efficace.",
+        "desc2":"Ayant travaillé sur divers projets, de la collaboration avec des individus à des start-ups, j'ai développé une adaptabilité qui me permet de trouver des solutions sur mesure pour mes clients. En équipe, je suis autonome et efficace dans la gestion du temps, avec de solides compétences en communication et en résolution de problèmes. Passionnée par l'apprentissage continu, je m'investis dans des projets innovants, démontrant ainsi mon esprit d'initiative et ma volonté de relever de nouveaux défis. Explorez mon portfolio pour en savoir plus sur mon parcours professionnel et mes réalisations.",
         "list":[
-            {"id":1,"title":"Développement d'Applications Web: ","description":"Conception et mise en œuvre d'applications web sur mesure répondant aux besoins spécifiques de vos clients."},
-            {"id":2,"title":"Intégration web: ","description":"Collaboration avec des designers pour intégrer des maquettes graphiques en des sites web fonctionnels et esthétiques."},
-            {"id":3,"title":"Maintenance Continue: ","description":"Analyser et vérifier que le code respect les bonnes pratiques, et veiller à sa qualité (lisibilité, clarté, consistance). Ainsi, le code devient plus maintenable, mieux architecturé et le nombre de bugs est réduit."}
+            {"id":1,"icon":"faCode","title":"Développement d'Applications Web: ","description":"Conception et mise en œuvre d'applications web sur mesure répondant aux besoins spécifiques de vos clients."},
+            {"id":2,"icon":"faLinkedinIn","title":"Intégration web: ","description":"Collaboration avec des designers pour intégrer des maquettes graphiques en des sites web fonctionnels et esthétiques."},
+            {"id":3,"icon":"faLinkedinIn","title":"Maintenance Continue: ","description":"Analyser et vérifier que le code respect les bonnes pratiques, et veiller à sa qualité (lisibilité, clarté, consistance). Ainsi, le code devient plus maintenable, mieux architecturé et le nombre de bugs est réduit."}
       
       
         ]
@@ -37,8 +37,34 @@
     "skills":{
         "note":"What I Know",
         "title":"My skills",
-        "desc":"Spécialiste en développement web passionné par l'intégration de maquettes et la résolution de problèmes dans le domaine des applications et sites web modernes. Fortes compétences académiques et expérience pratique.",
+        "desc":"Spécialiste en développement web passionné par l'intégration de maquettes et la résolution de problèmes dans le domaine des applications et sites web modernes.",
         "listSkills":[{"title":"Language de programmation","list":["ts","js","python","php"]},
-        {"title":"Développement web","list":["Nodejs","reactjs","redux","nextjs","angular","gatsby","bootstrap","materialui","tailwind","scss","expressjs","laravel"]},{"title":"SGBD","list":["mongodb","","mysql"]},{"title":"DevOps","list":["git","github","gitlab","hostinger","ovh"]},{"title":"Web service","list":["restapi","graphql"]}]
+        {"title":"Développement web","list":["nodejs","reactjs","redux","nextjs","angular","gatsby","bootstrap","materialui","tailwind","scss-sass","wordpress", "expressjs","laravel","postman"]},{"title":"SGBD","list":["mongodb","mysql"]},{"title":"DevOps","list":["git","github","gitlab","hostinger","ovh"]},{"title":"Web service","list":["restapi","graphql"]}]
+    },
+    "qualifications":{
+        "note":"Here's My",
+        "title":"Qualifications",
+        "titleExep":"Experience",
+        "btn":"my tasks",
+        "experience":[{"id":0,"logo":"logozeta","workName":"Developpeuse web","companyName":"Zeta engineering","date":"1/2023 – Présent","tasks":["Création d’un ensemble de sites web avec un design personnalisé en utilisant ReactJs, NextJs,bootstrap: structural-metal.fr, spacy-and-cosy.fr,structural-home.fr, structural-wood.fr","Création de divers sites WordPress personnalisés et adaptatifs à partir de maquettes de conception, incluant des fonctionnalités avancées de WordPress telles que custom post types,advanced custom fields, et création de shortcodes personnalisés: architectis.fr, reno-deco.fr, maisonpresto.com, klass-design.fr, mur-mur.fr, sopranet.fr, ...", "Maintenance, correction de bugs et amélioration de sites web et d’applications existants.","Utilisation de GitHub et GitLab pour la gestion du versionnage du code, avec collaboration au sein d’équipes selon la méthodologie Scrum.","Garantie de la responsivité et respect des règles UI/UX.","Amélioration des performances SEO on-page.","Déploiement de sites web sur OVH et Hostinger."],"tools":"reactJs / NextJs / Bootsrap / Tailwind CSS / Hostinger / WordPress / Git"},
+    
+        {"id":1,"logo":"logozeta","workName":"workDeveloppeuse web","companyName":"Freelance","date":"10/2022 – 1/2023","tasks":["Création d’un site Web E-commerce avec une dashboard admin.","Création d’une application de gestion de film.","Integration de maquette d’un site web vitrine Luxury Hotel.","Création de mon portfolio."],"tools":"ReactJs / Bootstrap / NodeJs / ExpressJs / MongoDB / Google Analytics"},
+    
+        {"id":2,"logo":"logozeta","workName":"Developpeuse web","companyName":"Emiketic","date":"4/2022 – 10/2022","tasks":["Développement des sites responsives : Elife fondation tunisie, Horizon europe, Luxor technology and trade, Ami assurances.","Manipulation des APIs via rest api et graphQl.","Creation et exécution des scripts Google app script."],"tools":"ReactJs / Gatsby / NodeJs / ExpressJs / Bootstrap / MaterialUI / Google+API / Strapi / diractus / Google analytics / Google Tag Manager"},
+        
+        {"id":3,"logo":"logozeta","workName":"Designer graphique","companyName":"Softhym","date":"3/2021 – 4/2021","tasks":["Création d’affiches publicitaires et de chartes graphiques."],"tools:":"Adobe illustrateur / Adobe photoshop / Adobe premier"},
+    
+        {"id":4,"logo":"logozeta","workName":"Stage mémoire","companyName":"Centre de recherche en Numérique de Sfax (CRNS)","date":"2/2020 – 12/2021","tasks":["Création d’un algorithme de VAE explicable pour l’apprentissage des représentations."],"tools:":"Python / tensorFlow / Deep Learning"},
+    
+        {"id":5,"logo":"logozeta","workName":"Stage PFE","companyName":"EDS ((Expert Dev Solutions)","date":"2/2018 – 5/2018","tasks":["Création d’une application web de gestion de la production d’une usine de fabrication de matériel électrique."],"tools:":"CodeIgniter / MySQL / Bootstrap"}],
+    
+        "titleEduc":"Education",
+        "education":[{"id":0,"logo":"logozeta","diplomaName":"Full stack JS (MERN) ","schoolName":"GoMyCode","date":"3/2021 - 8/2021"},
+    
+        {"id":1,"logo":"logozeta","diplomaName":"Mastere de recherche en informatique et multimédia","schoolName":"Institut supérieur d'informatique et multimédia Sfax","date":"9/2018 - 12/2021"},
+    
+        {"id":2,"logo":"logozeta","diplomaName":"Licence en informatique et multimédia","schoolName":"Institut supérieur d'informatique et multimédia Sfax","date":"9/2015 - 6/2018"},
+    
+        {"id":3,"logo":"logozeta","diplomaName":"Baccalauréat Mathématique","schoolName":"Lycee Nahj Menzah","date":"9/2014 - 6/2015"}]
     }
     }

@@ -7,7 +7,7 @@
             @for (item of "services.list" | translate; track item.id) { 
                 <div class="row services-block-list">
                     <div class="col-2"><p class=" services-block-list-number"> {{'0'+item?.id+'/'}}</p></div>
-                    <div class="col-10"><h2> {{item?.title}}</h2><p> {{item?.description}}</p></div>
+                    <div class="col-10"> <fa-icon *ngIf="item.icon === 'faCode'" size="xl" [icon]="faCode"></fa-icon><h2> {{item?.title}}</h2><p> {{item?.description}}</p></div>
                 </div>
                   } @empty {
                     <span>Please wait</span>
