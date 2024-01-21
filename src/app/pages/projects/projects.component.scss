@@ -1,0 +1,15 @@
+.all-projects{
+  
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin: auto;
+    &-title{
+        font-size: 5rem;
+        font-weight: 700;
+        @media screen and (max-width: 992px) {
+        font-size: 2rem;
+        font-weight: 600;
+        }
+    }
+}

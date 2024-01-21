@@ -6,14 +6,14 @@
             <p>{{'skills.desc'| translate}}</p></div>
     </div>
     <div class="col-lg-6 position-relative">
-        <img class=" skills-imgblock h-auto w-100" src="../../../assets/skills.jpg" alt="skills">
+        <img class=" skills-imgblock h-100 w-100 object-fit-cover d-block m-auto" src="../../../assets/skills.jpg" alt="skills">
     </div>
    <div class="col-lg-6 position-relative">
     <div class="row">
         @for (item of "skills.listSkills" |translate ; track $index) {
             <div class="row" key=$index>
                 <p class="skills-item-title mb-1 mt-3">{{item.title}}</p>
-              <div class="row flex-wrap justify-content-start">
+              <div class="row flex-wrap ">
                 @for (itemlist of item.list; track $index) {
                     <div class="col position-relative skills-col-2 m-2">
                         <div class="skills-item">

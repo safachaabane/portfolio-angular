@@ -1,0 +1,21 @@
+
+<div class="cardProject">
+      
+            <a [routerLink]="['/',lang,'projects',cardProject.urlProject]" [state]="{ data: cardProject }" >
+              <div class="cardProject-link">
+            <div class="row py-3 ps-2 me-2"><div class="col"><h3 class="cardProject-link-title">{{cardProject.name}}</h3></div>
+            <div class="col cardProject-link-icon">  <fa-icon size="xl" [icon]="link"></fa-icon></div>
+        </div>   
+<div class="position-relative cardProject-img">
+    <img class="h-100 w-100" [src]="'/assets/projects/' + (cardProject.img[0] || '') + '.png'" alt={{cardProject.img[0]}} title={{cardProject.img[0]}}/>
+</div></div> </a>   
+<div class="row p-4">
+        @for (item of cardProject.tools ; track $index) { 
+            <div class="col">
+                <img class="h-100 w-100" [src]="'/assets/icons/skills/' + (item || '') + '.png'" alt={{item}} title={{item}}/>
+              </div>
+              } @empty {
+                <span>Please wait</span>
+              }
+    </div>
+</div>

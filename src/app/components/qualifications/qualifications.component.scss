@@ -3,16 +3,15 @@
 .qualifications{    
     background-color:$yellow;
     min-height: 95vh;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
     &-block{
     max-width:1500px;
     width: 90%;
     }
 
     &-note{
-    top:0;
-    left:-20px;
+    top:-20px;
+    left:-30px;
     transform: rotate(-30deg);
     color: $purple;
 
@@ -60,6 +59,31 @@
             @media screen and (min-width:1200px) {
                  margin-top: -60px;
             }
+        }
+        &-margin:nth-child(1){
+            @media screen and (min-width:1200px) {
+                margin-top: -300px;
+           }
+        }
+        &-margin:nth-child(2){
+            @media screen and (min-width:1200px) {
+                margin-top: -100px;
+           }
+        }
+        &-margin:nth-child(3){
+            @media screen and (min-width:1200px) {
+                margin-top: -110px;
+           }
+        }
+        &-margin:nth-child(4){
+            @media screen and (min-width:1200px) {
+                margin-top: -90px;
+           }
+        }
+        &-margin:nth-child(5){
+            @media screen and (min-width:1200px) {
+                margin-top: -30px;
+           }
         }
         &-title{
             font-size: 18px;
@@ -152,4 +176,10 @@
 } 
     }
 }
+}
+.other-style{
+    background-color: $yellow;
+    .qualifications-experience-block-item{
+        // background-color: $yellow;
+    }
 }

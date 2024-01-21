@@ -1,1 +1,21 @@
-<p>about-me works!</p>
+<div class="aboutme">
+    <div class="aboutme-block m-auto d-block">
+       <div class="row m-auto py-2 justify-contentrdf-between align-items-center">
+           <div class="col-xl-12  position-relative aboutme-block-col mx-xl-0 m-auto"><p class="aboutme-block-note position-absolute">{{'aboutme.note' | translate}}</p><h2 class="aboutme-block-title py-3">{{'aboutme.title'| translate}}</h2>
+        <div class=" aboutme-block-desc"> <p class="pt-3 ">{{'aboutme.desc1'| translate}}</p> <p class="">{{'aboutme.desc2'| translate}}</p></div>
+
+       </div>
+            <div class="row qualifications-experience my-3">
+                @for (itemEduc of 'qualifications.education' | translate ; track $index) {
+                    <div class="col-xl-3 col-lg-6 qualifications-experience-block">
+                    <div key={$index} class=" qualifications-experience-block-item mx-auto h-100"> <h4 class="position-relative qualifications-experience-block-item-title"> {{itemEduc?.diplomaName}}</h4><p class="qualifications-experience-block-item-date">{{itemEduc?.date}}</p><p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" />
+                        {{itemEduc?.schoolName}}</p></div></div>
+                }@empty {
+                    <span>Please wait</span>
+                  }
+               </div>
+        </div>   
+     </div>
+
+   
+   

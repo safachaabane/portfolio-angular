@@ -1,1 +1,18 @@
-<p>projects works!</p>
+<div class="all-projects">
+    <div class="all-projects-block row  m-auto">
+        <div class="">
+             <h1 class="all-projects-title text-center pb-5">{{'projets.titlePage'| translate}}</h1>
+        </div>
+        <div class="row"> 
+            @for (item of "projets.listProjects" | translate; track $index) { 
+                <div class="col-lg-4 all-projects-item">
+                  <div class="  p-lg-2 py-4 d-flex justify-content-center  flex-column">
+                     <app-card-project [cardProject]='item'></app-card-project>
+                  
+                </div></div>
+                  } @empty {
+                    <span>Please wait</span>
+                  }
+        </div>
+        </div>
+        </div>
