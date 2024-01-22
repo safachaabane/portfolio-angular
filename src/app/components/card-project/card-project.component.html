@@ -9,9 +9,9 @@
 <div class="position-relative cardProject-img">
     <img class="h-100 w-100" [src]="'/assets/projects/' + (cardProject.img[0] || '') + '.png'" alt={{cardProject.img[0]}} title={{cardProject.img[0]}}/>
 </div></div> </a>   
-<div class="row p-4">
+<div class="row p-4 d-flex justify-content-center flex-wrap">
         @for (item of cardProject.tools ; track $index) { 
-            <div class="col">
+            <div class="cardProject-tools">
                 <img class="h-100 w-100" [src]="'/assets/icons/skills/' + (item || '') + '.png'" alt={{item}} title={{item}}/>
               </div>
               } @empty {

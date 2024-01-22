@@ -1,4 +1,6 @@
+import { Location } from '@angular/common';
 import { Component } from '@angular/core';
+import { faCode, faLeftLong, faLink } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-project',
@@ -6,12 +8,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent {
-constructor (){
+  dataProjet=history.state.data;
+  faLeft=faLeftLong;
+  faLink=faLink
+  faCode=faCode
+constructor (private location: Location){
 
 }
 ngOnInit(){
-  console.log(history.state);
-  
-  
+}
+backLastPage() {
+  this.location.back(); // <-- go back to previous location on cancel
 }
 }

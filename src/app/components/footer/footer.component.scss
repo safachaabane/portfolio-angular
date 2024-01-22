@@ -1,0 +1,15 @@
+@import "../../../styles.scss";
+.footer{
+    background-color: $yellow;
+    font-size: 12px;
+    font-weight: 500;
+    &-block{
+        max-width: 1600px;
+        width: 90%;
+        border-top: 1px solid $gray;
+    }
+    a{
+        text-decoration: none;
+        color:$black;
+    }
+}

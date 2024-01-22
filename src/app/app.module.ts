@@ -23,6 +23,8 @@ import { QualificationsComponent } from './components/qualifications/qualificati
 import { TasksQualificationsComponent } from './components/tasks-qualifications/tasks-qualifications.component';
 import { CardProjectComponent } from './components/card-project/card-project.component';
 import { ProjectComponent } from './pages/project/project.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -48,7 +50,9 @@ export function HttpLoaderFactory(http:HttpClient){
     QualificationsComponent,
     TasksQualificationsComponent,
     CardProjectComponent,
-    ProjectComponent
+    ProjectComponent,
+    BlogComponent,
+    ContactComponent
   ],
   imports: [
     TranslateModule.forRoot({

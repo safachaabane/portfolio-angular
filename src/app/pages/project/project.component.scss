@@ -1,0 +1,63 @@
+@import "../../../styles.scss";
+.projet{
+    max-width:1500px;
+    width: 90%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    &-title{
+        &-icon{
+            max-width: fit-content;
+            width:43px;
+            height: 43px;  
+            background-color: $purple;
+            padding: 7px;
+            border-radius: 50%;
+            color: $white;
+            @media screen and (max-width : 992px) {
+                margin-top: -20px;
+            }
+
+        }
+        &-text{
+            color:$purple;
+            text-transform: uppercase;
+           h1{
+            @media screen and (max-width : 992px) {
+                font-size: 1.2rem !important;
+            }
+           }
+            &:after{
+                content:"";
+                position: absolute;
+                right:0;
+                width: 100%;
+                border-bottom: 2px solid $purple;
+
+            }
+
+        }
+    }
+    &-informations{
+        &-tools{
+            max-width: 70px;
+            padding: 10px;
+        }
+    }
+    &-link{
+       a{
+        width: fit-content;
+        text-decoration: none;
+        border:2px solid $yellow;
+        background-color: $yellow;
+        color:$black;
+        padding: 8px 12px;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 15px auto;
+        &:hover{
+            background-color: transparent;
+        color:$yellow;
+        }
+       }
+    }
+}

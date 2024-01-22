@@ -1,0 +1,45 @@
+@import "../../../styles.scss";
+
+.contact{    
+    background-color: $yellow;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    &-block{
+    max-width:1500px;
+    width: 90%;
+    }
+    &-note{
+    top:-20px !important;
+    left:-20px;
+    transform: rotate(-30deg);
+    color: $purple;
+
+}
+&-title{
+    font-size: 4rem;
+    font-weight: 700;
+
+    @media screen and (max-width: 992px) {
+    font-size: 2rem;
+    font-weight: 600;
+    }
+}
+&-desc{
+    font-size: 2rem;
+    font-weight: bold;
+    a{
+        color: $purple;
+    }
+    &-icon{
+        max-width: fit-content;
+        width:40px;
+        height: 40px;
+        display: inline-block;
+        background-color: $purple;
+        padding: 10px;
+        border-radius: 50%;
+        color: $white;
+        transform: rotate(-45deg);
+    }
+}
+}

@@ -1,1 +1,36 @@
-<p>test</p>
+
+<div class="projet m-auto">
+ <div class="row projet-title py-4"><div class="col-1 ps-0"><button class="projet-title-icon" (click)="backLastPage()"><fa-icon size="xl" [icon]="faLeft"></fa-icon></button></div>
+ <div class="col projet-title-text position-relative"> <h1 class="text-end">{{dataProjet.name}}</h1></div></div>  
+<div class="position-relative">  <img class="h-100 w-100 m-auto" [src]="'/assets/projects/' + (dataProjet.img[0] || '') + '.png'" alt={{dataProjet.img[0]}} title={{dataProjet.img[0]}}/></div>
+   <div class="row"> <div class="col-lg-6"><h2>{{dataProjet.titleInfos}}</h2><h3 *ngIf="dataProjet.titleProjet.length > 0">{{dataProjet.titleProjet}}</h3>
+@for(item of dataProjet.desc; track $index){
+<p>{{item}}</p>
+} @empty {
+pas de descriptions
+}
+</div>
+   <div class="col-lg-6 projet-informations"><h2>{{dataProjet.titleTools}}</h2>
+    <div class="row p-4 d-flex justify-content-center flex-wrap">
+        @for(item of dataProjet.tools; track $index){
+            <div class=" projet-informations-tools">
+                <img class="h-100 w-100" [src]="'/assets/icons/skills/' + (item || '') + '.png'" alt={{item}} title={{item}}/>
+              </div>
+            } @empty {
+            pas de tools
+            }
+    </div>
+</div> </div> 
+<div class="row justify-content-center projet-link"><div *ngIf="dataProjet.urlCode.length > 0" class="col"><a class=" m-auto d-block"  href={{dataProjet.urlCode}} target="_blank" rel="noopener noreferrer"><fa-icon size="xl" [icon]="faCode"></fa-icon> {{dataProjet.btncode}}</a></div>
+<div  *ngIf="dataProjet.urlSite.length > 0"  class="col"><a class="w-fit-content m-auto d-block" href={{dataProjet.urlSite}} target="_blank" rel="noopener noreferrer"><fa-icon size="xl" [icon]="faLink"></fa-icon> {{dataProjet.btnsite}}</a></div></div>
+<div class="row d-flex justify-content-center flex-wrap py-5">
+  @for(item of dataProjet.img | slice : 1 ; track $index){
+    <div [ngClass]="{'col-lg-6 md-6': dataProjet.img.length < 4, 'col-lg-4 md-6': dataProjet.img.length >= 4}">
+        <img class="h-100 w-100" [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}}/>
+      </div>
+    } @empty {
+    pas de tools
+    }
+</div>
+</div>
+<app-footer/>
