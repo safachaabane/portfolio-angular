@@ -32,14 +32,37 @@
     }
     &-icon{
         max-width: fit-content;
-        width:40px;
-        height: 40px;
+        width: fit-content;
+        height: fit-content;
         display: inline-block;
-        background-color: $purple;
-        padding: 10px;
+        background-color: #25568C;
+        padding: 0px 10px;
         border-radius: 50%;
-        color: $white;
+        color: #ffffff;
         transform: rotate(-45deg);
+    }
+}
+input,textarea{
+    padding: 0.75rem;
+    margin: 0.7rem auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 3px 8px 0px rgba($color: $l-gray, $alpha: 0.5);
+    background-color: $white;
+    width: 100%;
+}
+button{
+    padding: 0.75rem;
+    margin: 0.7rem auto;
+    border: 2px solid $purple;
+    border-radius: 20px;
+    color: $white;
+    background-color: $purple;
+    width: fit-content;
+    &:hover{
+        color: $purple;
+        background-color: $white;
+        font-weight: 500;
     }
 }
 }

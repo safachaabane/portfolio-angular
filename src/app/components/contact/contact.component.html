@@ -1,11 +1,34 @@
 <div class="contact">
     <div class="contact-block row  m-auto">
         <div class="row">
-            <div class="col-6 position-relative">
+            <div class="col-lg-6 position-relative">
                 <p class="contact-note position-absolute">{{'contact.note' | translate}}</p><h2 class="contact-title py-3">{{'contact.title'| translate}}</h2>
-                <p class="contact-desc">{{'contact.desc'| translate}} <a href="mailto:safa1chaabane@gmail.com">{{'contact.link'| translate}} <span  class="contact-desc-icon"><fa-icon [icon]="link"></fa-icon> </span> </a> </p>
+                <p class="contact-desc">{{'contact.desc'| translate}} <a href="mailto:safa1chaabane@gmail.com">{{'contact.link'| translate}} <span  class="contact-desc-icon ms-2"><fa-icon [icon]="link"></fa-icon> </span> </a> </p>
               </div>
-              <div class="col-6"></div>
+              <div class="col-lg-6"><!-- modify this form HTML and place wherever you want your form -->
+                <form
+                  action="https://formspree.io/f/xwkgvvvp"
+                  method="POST"
+                >
+                <div class="row">
+                    <div class="col-md-6"> 
+                        <input type="text" name="Name"                          [placeholder]="'contact.nameform'|translate"/></div>
+                    <div class="col-md-6">
+                        <input type="email" name="email" [placeholder]="'contact.mailform'|translate"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12"> 
+                        <input type="text" name="Subject"                          [placeholder]="'contact.subjectform'|translate"/></div>
+                </div>
+                <div class="row">
+                    <div class="col-12"> 
+                        <textarea name="Message" [placeholder]="'contact.messageform'|translate"></textarea>
+</div>
+                </div>
+               
+                <button type="submit">{{"contact.btnform" | translate}}</button>
+                </form></div>
         </div>
         </div>
         </div>

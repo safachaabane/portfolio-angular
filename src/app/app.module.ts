@@ -25,6 +25,7 @@ import { CardProjectComponent } from './components/card-project/card-project.com
 import { ProjectComponent } from './pages/project/project.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -52,7 +53,8 @@ export function HttpLoaderFactory(http:HttpClient){
     CardProjectComponent,
     ProjectComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    BlogsComponent
   ],
   imports: [
     TranslateModule.forRoot({

@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectComponent } from './pages/project/project.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 const routes: Routes = [
   { path: '', children: [], component: AppComponent },
@@ -18,6 +19,8 @@ const routes: Routes = [
   },
   { path: ':lang/projects',
     children:[ {path:'', component: ProjectsComponent}, {path:':urlProject', component: ProjectComponent}]},
+    { path: ':lang/blogs',
+    children:[{path:':urlBlog', component: BlogComponent}]},
  
   { path: '404', component: ErrorComponent },
   {
