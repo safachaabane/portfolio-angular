@@ -5,7 +5,7 @@
                 <p class="lastProjects-note position-absolute">{{'projets.note' | translate}}</p><h2 class="lastProjects-title py-3">{{'projets.title'| translate}}</h2>
               </div>
         </div>
-        <div class="row"> 
+        <div class="row lastProjects-block-2  position-relative "> 
             @for (item of "projets.listProjects" | translate | slice:0:3; track $index) { 
                 <div class="col-lg-4 lastProjects-item">
                   <div class=" lastProjectsitem  py-4 p-lg-0 d-flex justify-content-center  flex-column">
@@ -16,6 +16,6 @@
                     <span>Please wait</span>
                   }
         </div>
-        <a class="lastProjects-link" [routerLink]="['projects']">{{'projets.btn' | translate}}</a>
+        <a class="lastProjects-link position-relative" [routerLink]="['projects']">{{'projets.btn' | translate}}</a>
         </div>
         </div>

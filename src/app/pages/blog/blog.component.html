@@ -1,3 +1,19 @@
-<p>blog works!</p>
+<div>
+<div class="blog my-5">
+
+    <div class="row blog-title m-auto py-5 align-items-center"><div class="col-1 ps-0"><button class="blog-title-icon" (click)="backLastPage()"><fa-icon size="xl" [icon]="faLeft"></fa-icon></button></div>
+    <div class="col blog-title-text position-relative"> <h1 class="text-start">{{dataBlog?.title}}</h1></div></div>  
+    <div class="position-relative blog-img"> <img class="h-100 m-auto d-block  object-fit-cover" [src]="'/assets/blog/' + (dataBlog.img || '') + '.jpg'" [alt]="dataBlog.img" [title]="dataBlog.img" />
+       <div class="blog-desc m-auto my-4">
+        @for (item of dataBlog.desc; track $index) {
+            <h2 class="py-3" *ngIf="item.title.length > 0" >{{item.title}}</h2>
+            <p  class="py-2  blog-desc-subtitle"  *ngIf="item.subtitle.length > 0" >{{item.subtitle}}</p>
+            <p  class="py-1"  *ngIf="item.desc.length > 0" >{{item.desc}}</p>
+        }
+       </div>
+    </div>
+
+</div>
 <app-contact/>
 <app-footer/>
+</div>
