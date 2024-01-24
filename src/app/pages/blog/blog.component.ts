@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './blog.component.scss'
 })
 export class BlogComponent {
-
+  dataBlog=history.state.data;
 }
