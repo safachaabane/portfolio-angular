@@ -1,0 +1,68 @@
+@import "../../../styles.scss";
+
+.contact{    
+    background-color: $yellow;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    &-block{
+    max-width:1500px;
+    width: 90%;
+    }
+    &-note{
+    top:-20px !important;
+    left:-20px;
+    transform: rotate(-30deg);
+    color: $purple;
+
+}
+&-title{
+    font-size: 4rem;
+    font-weight: 700;
+
+    @media screen and (max-width: 992px) {
+    font-size: 2rem;
+    font-weight: 600;
+    }
+}
+&-desc{
+    font-size: 2rem;
+    font-weight: bold;
+    a{
+        color: $purple;
+    }
+    &-icon{
+        max-width: fit-content;
+        width: fit-content;
+        height: fit-content;
+        display: inline-block;
+        background-color: #25568C;
+        padding: 0px 10px;
+        border-radius: 50%;
+        color: #ffffff;
+        transform: rotate(-45deg);
+    }
+}
+input,textarea{
+    padding: 0.75rem;
+    margin: 0.7rem auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 3px 8px 0px rgba($color: $l-gray, $alpha: 0.5);
+    background-color: $white;
+    width: 100%;
+}
+button{
+    padding: 0.75rem;
+    margin: 0.7rem auto;
+    border: 2px solid $purple;
+    border-radius: 20px;
+    color: $white;
+    background-color: $purple;
+    width: fit-content;
+    &:hover{
+        color: $purple;
+        background-color: $white;
+        font-weight: 500;
+    }
+}
+}

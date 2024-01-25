@@ -1,0 +1,41 @@
+@import "../../../styles.scss";
+.all-projects{
+  
+    width: 100%;
+    padding-bottom: 3%;
+    margin: auto;
+
+        &-title{
+            max-width: 1400px;
+            &-icon{
+                max-width: fit-content;
+                width:43px;
+                height: 43px;  
+                background-color: $purple;
+                padding: 7px;
+                border-radius: 50%;
+                color: $white;
+                @media screen and (max-width : 992px) {
+                    margin-top: -20px;
+                }
+    
+            }
+            h1{
+                margin-left: -130px;
+                z-index: -1 !important;
+                position: relative;
+                font-size: 5rem;
+                font-weight: 700;
+                @media screen and (max-width: 700px) {
+                font-size: 3.5rem;
+                margin-left: -50px;
+                }
+                @media screen and (max-width: 500px) {
+                    font-size: 2rem;
+                    margin-left: 0px;
+                    font-weight: 600;
+                    }
+    
+            }
+        }
+}

@@ -21,6 +21,11 @@ import { ErrorComponent } from './pages/error/error.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { QualificationsComponent } from './components/qualifications/qualifications.component';
 import { TasksQualificationsComponent } from './components/tasks-qualifications/tasks-qualifications.component';
+import { CardProjectComponent } from './components/card-project/card-project.component';
+import { ProjectComponent } from './pages/project/project.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
 
 export function HttpLoaderFactory(http:HttpClient){
  return new TranslateHttpLoader(http,"./assets/i18n/",".json");
@@ -44,7 +49,12 @@ export function HttpLoaderFactory(http:HttpClient){
     LoadingComponent,
     ErrorComponent,
     QualificationsComponent,
-    TasksQualificationsComponent
+    TasksQualificationsComponent,
+    CardProjectComponent,
+    ProjectComponent,
+    BlogComponent,
+    ContactComponent,
+    BlogsComponent
   ],
   imports: [
     TranslateModule.forRoot({

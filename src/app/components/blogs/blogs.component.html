@@ -1,0 +1,20 @@
+<div class="blogs m-auto d-block">
+       <div class="row m-auto py-2 justify-content-between align-items-center">
+           <div class="col-xl-12  position-relative mx-xl-0 m-auto"><p class="blogs-note position-absolute">{{'blogs.note' | translate}}</p><h2 class="blogs-title py-3">{{'blogs.title'| translate}}</h2>
+            </div></div>
+        
+        <div class="row">
+            @for (item of 'blogs.listBlog' | translate; track $index) {
+                <div class="col-lg-4 p-4">
+                    <a [routerLink]="['/',lang,'blogs',item.slug]" [state]="{ data: item }" >
+                        <div class="blogs-item p-4">
+                            <div class="position-relative">  <img class="h-100 w-100" [src]="'/assets/blog/' + (item.img || '') + '.jpg'" alt={{item.img}} title={{item.img}}/></div>
+                            <h3 class="p-3">{{item.title}}</h3>
+                          </div>
+                            </a>
+                </div>
+            }@empty {
+                Please wait
+            }
+        </div>
+        </div>

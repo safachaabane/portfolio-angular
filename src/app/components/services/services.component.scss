@@ -2,8 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/happy-halloween');
 .services{
 
-    background:$yellow;
-
+    background:$white;
     background-position: top;
     background-repeat: no-repeat;
     min-height: 95vh;
@@ -16,7 +15,7 @@
             max-width: 1300px;
         }
         &-note{
-            top:0;
+            top:-20px;
             left:-20px;
             transform: rotate(-30deg);
             color: $purple;
@@ -33,10 +32,10 @@
            
         } 
         &-desc{
-                line-height: 40px;
+                line-height: 35px;
         }
         &-welcome{
-            line-height: 40px;
+            line-height: 35px;
             font-weight: 600;
             font-family: 'Happy Halloween', sans-serif;
             font-size: 30px;
@@ -46,11 +45,13 @@
             padding-top: 3%;
             padding-bottom: 7%;
             border-bottom: 3px solid $purple;
-            background-color:$white;
-            color: $black;
+            background-color:$l-gray;
+            color: $yellow;
             height: 100%;
             transition: all 0.15s;
             min-height: 400px;
+            max-width: 550px;
+            margin: auto;
             *{
                 transition: all 0.15s;
                 
@@ -81,8 +82,9 @@
                     line-height: 30px;
                     font-size: 18px;
                 }
-                h2{
+                h3{
                     font-size: 1.35rem;
+                    text-align:start;
                 }
             }
         h2{
@@ -96,9 +98,20 @@
                 
                 }
             }
+            h3{
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: center;
+                transition: color 0.05s !important;
+                @media screen and (max-width: 992px) {
+                    font-size: 1.25rem;
+                font-weight: 500;
+                
+                }
+            }
             &-icon{
                 color: $white;
-                background-color: $purple;
+                background-color: $yellow;
                 border-radius: 50%;
                 border-bottom-right-radius: 0;
                 padding: 10px 15px;

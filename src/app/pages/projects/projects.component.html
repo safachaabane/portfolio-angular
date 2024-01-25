@@ -1,1 +1,20 @@
-<p>projects works!</p>
+<div class="all-projects">
+
+    <div class="all-projects-block row  m-auto">
+        <div class="row all-projects-title m-auto py-4 align-items-center my-md-5"><div class="col-1 ps-0"><button class="all-projects-title-icon" (click)="backLastPage()"><fa-icon size="xl" [icon]="faLeft"></fa-icon></button></div>
+        <div class="col all-projects-title-text position-relative"> <h1 class="text-center">{{'projets.titlePage'| translate}}</h1></div></div>  
+        <div class="row m-auto"> 
+            @for (item of "projets.listProjects" | translate; track $index) { 
+                <div class="col-lg-4 all-projects-item">
+                  <div class="  p-lg-2 py-4 d-flex justify-content-center  flex-column">
+                     <app-card-project [cardProject]='item'></app-card-project>
+                  
+                </div></div>
+                  } @empty {
+                    <span>Please wait</span>
+                  }
+        </div>
+        </div>
+        </div>
+        <app-contact/>
+        <app-footer/>

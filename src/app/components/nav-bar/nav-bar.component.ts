@@ -13,7 +13,7 @@ export class NavBarComponent {
   url : String = "";
   ngOnInit() {
   this.url=localStorage.getItem("lang") || "";
- 
+
   }
 
   async onChange(language: string) {

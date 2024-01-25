@@ -1,10 +1,10 @@
 <div class="row slider m-0 align-items-lg-center position-relative">
     <div class="col-xl-5 order-1 order-xl-0"><p class="slider-salutation">{{ 'slider.salutation' | translate }} <span class="wave" role="img" aria-labelledby="wave">👋</span></p>
-        <p  class="slider-name2">{{ 'slider.name1' | translate }} {{ 'slider.name2' | translate }},</p>
-        <p  class="slider-work">{{ 'slider.work' | translate }}</p>
+        <h1><p  class="slider-name2">{{ 'slider.name1' | translate }} {{ 'slider.name2' | translate }},</p>
+        <p  class="slider-work">{{ 'slider.work' | translate }}</p></h1>
         <p class="slider-description">{{ 'slider.description' | translate }}</p>
         <div class="row py-3 slider-contact">
-            <div class="col-sm-6 slider-link py-2"><a href="">{{ 'slider.contact' | translate }}      <fa-icon [icon]="faPaperPlane"></fa-icon></a>
+            <div class="col-sm-6 slider-link py-2"><a  [routerLink]='"."' [fragment]="'contact'" >{{ 'slider.contact' | translate }}      <fa-icon [icon]="faPaperPlane"></fa-icon></a>
           
             </div>
             <div  class="col-sm-6 order-0 order-xl-1 slider-cv py-2"><a href="">{{ 'slider.cv' | translate }}    <fa-icon [icon]="faArrowDown"></fa-icon></a></div>

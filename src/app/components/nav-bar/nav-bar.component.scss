@@ -1,3 +1,4 @@
+@import "../../../styles.scss";
 .nav-bar{
     background-color: white;
     &-logo{
@@ -8,6 +9,10 @@
         }
     }
     &-menu{
+        border: 1px solid $l-yellow;
+        box-shadow: 2px 2px 5px 1px $l-yellow;
+        border-radius: 40px; 
+        
         li{
             padding: auto 3%;
             a{
