@@ -1,7 +1,7 @@
 <div class="sticky-top nav-bar d-flex justify-content-around align-items-center p-2">
 <div class="nav-bar-logo" routerLink="/"><img class="h-100 w-100" src="../../../assets/log-safa-chaabane.png" alt="logo safa chaabane"></div>
 
-<ul class="d-lg-flex m-0 d-none justify-content-around list-unstyled nav-bar-menu align-items-center">
+<ul class="d-lg-flex m-0 d-none justify-content-around list-unstyled nav-bar-menu py-3 align-items-center">
   @for (item of "menu"|translate; track item.id) { 
     <li class="px-3" >  <a [routerLink]='"."' [fragment]="item.link">{{item.link}}</a></li>
     } @empty {

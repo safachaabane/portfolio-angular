@@ -4,6 +4,9 @@
     width: 90%;
     padding-top: 3%;
     padding-bottom: 3%;
+    h2{
+        color: $purple;
+    }
     &-title{
         &-icon{
             max-width: fit-content;

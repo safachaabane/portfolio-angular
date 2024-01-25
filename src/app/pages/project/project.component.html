@@ -3,14 +3,14 @@
  <div class="row projet-title py-4"><div class="col-1 ps-0"><button class="projet-title-icon" (click)="backLastPage()"><fa-icon size="xl" [icon]="faLeft"></fa-icon></button></div>
  <div class="col projet-title-text position-relative"> <h1 class="text-end">{{dataProjet.name}}</h1></div></div>  
 <div class="position-relative">  <img class="h-100 w-100 m-auto" [src]="'/assets/projects/' + (dataProjet.img[0] || '') + '.png'" alt={{dataProjet.img[0]}} title={{dataProjet.img[0]}}/></div>
-   <div class="row"> <div class="col-lg-6"><h2>{{dataProjet.titleInfos}}</h2><h3 *ngIf="dataProjet.titleProjet.length > 0">{{dataProjet.titleProjet}}</h3>
+   <div class="row"> <div class="col-lg-6"><h2 class="py-2">{{dataProjet.titleInfos}}</h2><h3 *ngIf="dataProjet.titleProjet.length > 0">{{dataProjet.titleProjet}}</h3>
 @for(item of dataProjet.desc; track $index){
 <p>{{item}}</p>
 } @empty {
 pas de descriptions
 }
 </div>
-   <div class="col-lg-6 projet-informations"><h2>{{dataProjet.titleTools}}</h2>
+   <div class="col-lg-6 projet-informations"><h2 class="py-2">{{dataProjet.titleTools}}</h2>
     <div class="row p-4 d-flex justify-content-center flex-wrap">
         @for(item of dataProjet.tools; track $index){
             <div class=" projet-informations-tools">
