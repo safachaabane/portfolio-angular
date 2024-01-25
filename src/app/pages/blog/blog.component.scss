@@ -39,6 +39,10 @@
        
         max-width: 1200px;
         margin: auto;
+        img{
+            width: auto;
+            max-width: 100%;
+        }
     }
     &-desc{
         max-width: 1200px;
