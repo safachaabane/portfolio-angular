@@ -7,7 +7,7 @@
       @for (item of "services.list" | translate; track item.id) { 
         <div class="col-lg-4 p-4">
           <div class=" services-block-list p-4 d-flex justify-content-center  flex-column">
-        <div class="services-block-list-descblock">  <div class="services-block-list-icon"><fa-icon *ngIf="item.icon === 'faCode'" [icon]="faCode"></fa-icon> <fa-icon *ngIf="item.icon === 'faCircleExclamationCheck'" [icon]="faCircleExclamationCheck"></fa-icon><fa-icon *ngIf="item.icon === 'faWandMagicSparkles'" [icon]="faWandMagicSparkles"></fa-icon></div><div> <h2> {{item?.title}}</h2></div></div>
+        <div class="services-block-list-descblock">  <div class="services-block-list-icon"><fa-icon *ngIf="item.icon === 'faCode'" [icon]="faCode"></fa-icon> <fa-icon *ngIf="item.icon === 'faCircleExclamationCheck'" [icon]="faCircleExclamationCheck"></fa-icon><fa-icon *ngIf="item.icon === 'faWandMagicSparkles'" [icon]="faWandMagicSparkles"></fa-icon></div><div> <h3> {{item?.title}}</h3></div></div>
          <p class="d-none services-block-list-desc py-4"> {{item?.description}}</p>
         </div></div>
           } @empty {

@@ -27,7 +27,6 @@
             
             @media screen and (max-width: 992px) {
                 font-size: 2rem;
-            font-weight: 600;
             }
            
         } 
@@ -82,8 +81,9 @@
                     line-height: 30px;
                     font-size: 18px;
                 }
-                h2{
+                h3{
                     font-size: 1.35rem;
+                    text-align:start;
                 }
             }
         h2{
@@ -93,7 +93,16 @@
                 transition: color 0.05s !important;
                 @media screen and (max-width: 992px) {
                     font-size: 1.25rem;
-                font-weight: 500;
+                
+                }
+            }
+            h3{
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: center;
+                transition: color 0.05s !important;
+                @media screen and (max-width: 992px) {
+                    font-size: 1.25rem;
                 
                 }
             }

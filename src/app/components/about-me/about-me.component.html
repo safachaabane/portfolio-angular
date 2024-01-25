@@ -8,7 +8,7 @@
             <div class="row qualifications-experience my-3">
                 @for (itemEduc of 'qualifications.education' | translate ; track $index) {
                     <div class="col-xl-3 col-lg-6 qualifications-experience-block">
-                    <div key={$index} class=" qualifications-experience-block-item mx-auto h-100"> <h4 class="position-relative qualifications-experience-block-item-title"> {{itemEduc?.diplomaName}}</h4><p class="qualifications-experience-block-item-date">{{itemEduc?.date}}</p><p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" />
+                    <div key={$index} class=" qualifications-experience-block-item mx-auto h-100"> <h3 class="position-relative qualifications-experience-block-item-title"> {{itemEduc?.diplomaName}}</h3><p class="qualifications-experience-block-item-date">{{itemEduc?.date}}</p><p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" />
                         {{itemEduc?.schoolName}}</p></div></div>
                 }@empty {
                     <span>Please wait</span>
