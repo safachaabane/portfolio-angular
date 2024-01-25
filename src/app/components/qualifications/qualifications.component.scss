@@ -87,6 +87,9 @@
         }
         &-title{
             font-size: 18px;
+            min-height: 40px;
+            display: flex;
+            align-items: center;
             &:after{
                 content:"";
                 position:absolute;
@@ -179,7 +182,5 @@
 }
 .other-style{
     background-color: $yellow;
-    .qualifications-experience-block-item{
-        // background-color: $yellow;
-    }
+  
 }
