@@ -2,7 +2,7 @@
 
 .skills{    
     min-height: 95vh;
-    padding-top: 5%;
+    padding-top: 60px;
     padding-bottom: 3%;
     &-block{
     max-width:1500px;
@@ -13,7 +13,7 @@
     }
     &-note{
     top:-20px;
-    left:-30px;
+    left:-20px;
     transform: rotate(-30deg);
     color: $purple;
 
@@ -23,7 +23,6 @@
     font-weight: 700;
     @media screen and (max-width: 992px) {
     font-size: 2rem;
-    font-weight: 600;
     }
 }
 &-col-2{

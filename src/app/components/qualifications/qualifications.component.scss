@@ -3,7 +3,7 @@
 .qualifications{    
     background-color:$yellow;
     min-height: 95vh;
-    padding-top: 5%;
+    padding-top: 50px;
     &-block{
     max-width:1500px;
     width: 90%;
@@ -11,7 +11,7 @@
 
     &-note{
     top:-20px;
-    left:-30px;
+    left:-20px;
     transform: rotate(-30deg);
     color: $purple;
 
@@ -21,14 +21,13 @@
     font-weight: 700;
     @media screen and (max-width: 992px) {
     font-size: 2rem;
-    font-weight: 600;
     }
 }
 &-experience{
     &-title{
         color:$purple;
         font-size: 36px;
-        font-weight: 500;
+       
     }
     &-block{   
         border-bottom:4px solid $yellow; 
@@ -125,16 +124,7 @@
             font-style: italic;
             text-align: center;
         }
-        // &-btn{
-        //     width: 100%;
-        //     display: flex;
-        //     justify-content: space-between;
-        //     background-color:transparent;
-        //     border:none;
-        //     span{
-        //         color:$purple;
-        //     }
-        // }
+     
     
     }
        

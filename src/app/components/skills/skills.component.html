@@ -6,7 +6,7 @@
             <p>{{'skills.desc'| translate}}</p></div>
     </div>
     <div class="col-lg-6 position-relative">
-        <img class=" skills-imgblock h-100 w-100 object-fit-cover d-block m-auto" src="../../../assets/skills.jpg" alt="skills">
+        <img class=" skills-imgblock h-100 w-100 object-fit-cover d-block m-auto" src="../../../assets/skills.jpg" alt="skills" title="skills">
     </div>
    <div class="col-lg-6 position-relative">
     <div class="row">
@@ -17,7 +17,7 @@
                 @for (itemlist of item.list; track $index) {
                     <div class="col position-relative skills-col-2 m-2">
                         <div class="skills-item">
-                       <img class="skills-item-img m-auto d-block" src="../../assets/icons/skills/{{ itemlist}}.png" alt="" />
+                       <img class="skills-item-img m-auto d-block" src="../../assets/icons/skills/{{ itemlist}}.png" [alt]="itemlist" title={{itemlist}} />
                        <p class="text-center skills-item-name">{{itemlist | uppercase}}</p>
                     </div></div>
                        }
