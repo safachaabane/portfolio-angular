@@ -1,6 +1,6 @@
 @import "../../../styles.scss";
 .blogs{
-    padding-top: 3%;
+    padding-top: 50px;
     padding-bottom: 3%;
     max-width:1500px;
     width: 90%;
@@ -18,7 +18,7 @@
             
             @media screen and (max-width: 992px) {
                 font-size: 2rem;
-
+            
             }
            
         } 
