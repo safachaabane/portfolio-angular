@@ -1,6 +1,8 @@
 @import "../../../styles.scss";
 @import url('https://fonts.cdnfonts.com/css/happy-halloween');
 .slider{
+   width: 90%;
+   max-width: 1500px;
     height:95vh;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -66,6 +68,7 @@
     }
     &-img{
         max-height: 600px;
+
         img{
         
             height: 100%;

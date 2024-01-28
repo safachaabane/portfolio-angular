@@ -9,7 +9,7 @@
             <div [class]="['qualifications-experience-block-item position-relative qualifications-experience-block-item-margin', (itemEduc.id % 2 === 0 ? 'odd' : 'even')].join(' ')"> 
                 <div class="row"><div class="col-9"><h3 class="position-relative qualifications-experience-block-item-title"> {{itemEduc?.workName}}</h3></div>
                 <div class="col-3"><p class="qualifications-experience-block-item-date">{{itemEduc?.date}}</p></div></div>
-                <p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo me-2" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" />{{itemEduc?.companyName}}</p>
+                <p class="qualifications-experience-block-item-company"><img class="qualifications-experience-block-item-company-logo me-2" [src]="'/assets/icons/logo/' + (itemEduc?.logo || '') + '.jpg'" title={{itemEduc?.companyName}} alt="{{itemEduc?.companyName}}"/>{{itemEduc?.companyName}}</p>
                 <!-- <button class="qualifications-experience-block-item-btn" type="button" (click)="show = !show">{{'qualifications.btn' | translate}}  <span> <fa-icon size="xl" [icon]="faArrowDown"></fa-icon> </span></button> -->
                <ul class="qualifications-experience-block-item-tasks">
                 @for (item of itemEduc?.tasks; track $index) {
