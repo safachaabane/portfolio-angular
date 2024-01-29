@@ -7,7 +7,15 @@
             <div class="col-sm-6 slider-link py-2"><a  [routerLink]='"."' [fragment]="'contact'" >{{ 'slider.contact' | translate }}      <fa-icon [icon]="faPaperPlane"></fa-icon></a>
           
             </div>
-            <div  class="col-sm-6 order-0 order-xl-1 slider-cv py-2"><a href="">{{ 'slider.cv' | translate }}    <fa-icon [icon]="faArrowDown"></fa-icon></a></div>
+            <div  class="col-sm-6 order-0 order-xl-1 slider-cv py-2"><a *ngIf="url == 'fr'; else otherLink" [href]="'../../../assets/CV_Developer_fr.pdf'" download="CV safa chaabane FR">
+                {{ 'slider.cv' | translate }} <fa-icon [icon]="faArrowDown"></fa-icon>
+              </a>
+              <ng-template #otherLink>
+                <a [href]="'../../../assets/CV_Developer_en.pdf'" download="CV safa chaabane EN">
+                  {{ 'slider.cv' | translate }} <fa-icon [icon]="faArrowDown"></fa-icon>
+                </a>
+              </ng-template>
+              </div>
         </div>
         <div class="row slider-socialNetwork justify-content-around align-items-center py-lg-5 py-1"><div class="col-lg-6">{{ 'slider.socialNetwork' | translate }}</div>
         <div class="col-2 p-2"><a href="https://linkedin.com/in/safa-chaabane">  <fa-icon size="xl" [icon]="faLinkedinIn"></fa-icon></a></div>

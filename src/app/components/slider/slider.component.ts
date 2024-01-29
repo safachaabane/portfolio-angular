@@ -23,10 +23,12 @@ export class SliderComponent {
   faMailchimp=faEnvelope
   faGithub=faGithub
   constructor() {}
-
+  url : String = "";
   ngOnInit() {
-  
+  this.url=localStorage.getItem("lang") || "";
+
   }
+
 
 
 }
