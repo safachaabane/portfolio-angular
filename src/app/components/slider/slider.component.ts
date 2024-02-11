@@ -26,7 +26,7 @@ export class SliderComponent {
   url : String = "";
   ngOnInit() {
   this.url=localStorage.getItem("lang") || "";
-
+   
   }
 
 
