@@ -43,10 +43,10 @@
   </div>
   <div class="row d-flex justify-content-center flex-wrap py-5">
     @for(item of dataProjet.img | slice : 1 ; track $index){
-    <div [ngClass]="{'col-lg-6 md-6': dataProjet.img.length < 4, 'col-lg-4 md-6': dataProjet.img.length >= 4}">
-      <img *ngIf="dataProjet.urlSite.length ==1" class="h-100 w-100" [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}} />
-      <a *ngIf="dataProjet.urlSite.length >1" 
-        href={{dataProjet.urlSite[$index]}} target="_blank" rel="noopener noreferrer">    <img *ngIf="dataProjet.urlSite.length ===1" class="h-100 w-100" [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}} /> </a>
+    <div [ngClass]="{'col-lg-6 md-6 position-relative my-5': dataProjet.img.length < 4, 'col-lg-4 md-6 position-relative my-2': dataProjet.img.length >= 4}">
+      <img *ngIf="dataProjet.img.length ==1" class="h-100 w-100 " [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}} />
+      <a *ngIf="dataProjet.urlSite.length > 1" 
+        href={{dataProjet.urlSite[$index]}} target="_blank" rel="noopener noreferrer">    <img  class="h-100 w-100 my-5" [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}} /> </a>
     </div>
     } @empty {
    

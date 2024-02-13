@@ -260,7 +260,7 @@
                 "id": 0,
                 "name": "luxury & Cosy",
                 "img": [
-                    "agexis"
+                    "luxury-and-cosy"
                 ],
                 "tools": [
                     "nextjs",
@@ -272,14 +272,14 @@
                     "nodejs"
                 ],
                 "desc": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    "Création du site Luxury and Cosy, qui propose une gamme complète de services pour aider les gens à réaliser la maison de leurs rêves. Luxury and Cosy offre une gamme complète de services pour vous aider à concrétiser la maison de vos rêves."
                 ],
                 "urlCode": "",
                 "urlSite": ["https://luxury-and-cosy.fr/"],
                 "urlProject": "luxury-and-cosy",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
-                "titleProjet": "testtetstg",
+                "titleProjet": "Création du site Luxury and Cosy",
                 "btnsite": "Voir le site",
                 "btncode": "Code source"
             },
@@ -306,7 +306,7 @@
                 "urlProject": "archilux",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
-                "titleProjet": "testtetstg",
+                "titleProjet": "Création d'un site web pour Archilux",
                 "btnsite": "Voir le site",
                 "btncode": "Code source"
             },
@@ -314,10 +314,7 @@
                 "id": 2,
                 "name": "Spacy and Cosy",
                 "img": [
-                    "spacy-and-cosy",
-                    "portfolio-safa",
-                    "agexis",
-                    "agexis"
+                    "spacy-and-cosy"
                 ],
                 "tools": [
                     "nextjs",
@@ -329,14 +326,14 @@
                     "nodejs"
                 ],
                 "desc": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    "Création d'un site web pour Spacy and Cosy, une entreprise spécialisée dans l'architecture et les études structurales, se consacrant à la création d'espaces uniques et fonctionnels. Sur ce site, nous décrivons leur expertise ainsi que leur passion pour le design, et les accompagnons dans la réalisation de projets, qu'il s'agisse de constructions neuves, de rénovations ou d'extensions."
                 ],
                 "urlCode": "",
                 "urlSite": ["https://spacy-and-cosy.fr/"],
                 "urlProject": "spacy-and-cosy",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
-                "titleProjet": "testtetstg",
+                "titleProjet": "Création d'un site web pour Spacy and Cosy",
                 "btnsite": "Voir le site",
                 "btncode": "Code source"
             },
@@ -347,7 +344,7 @@
                     "all-sitewordpress",
                     "1001-architecture",
                     "surfcom",
-                    "surfcom",
+                    "truecom",
                     "maison-presto",
                     "escaliere",
                     "klass-design",
@@ -375,11 +372,36 @@
                     "Creation d'un pack des sites web pour des entreprises d'ingénierie, de conseil, de rénovation, de décoration,.. en France, qui sont spécialisée dans la gestion des projet de bâtiments, de construction et d'Infrastructures. "
                 ],
                 "urlCode": "",
-                "urlSite": ["https://spacy-and-cosy.fr/"],
+                "urlSite": ["https://1001-architecture.fr/","https://surf-com.fr/","https://truecom.fr/","https://maison-presto.com/","https://escaliere.fr/","https://klass-design.fr/","https://reno-deco.fr/","https://mur-mur.fr/","https://global-reno.fr/","https://sopranet.com/","https://renov-en-main.fr/","https://open-mur.fr/","https://enirop.com/","https://muretremie.fr/","https://architectis.fr/","https://agexis.com/"],
                 "urlProject": "pack-wordpress",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
                 "titleProjet": "Création d'un pack de 16 sites avec le CMS WordPress",
+                "btnsite": "Voir le site",
+                "btncode": "Code source"
+            },
+            {
+                "id": 4,
+                "name": "Mon portfolio",
+                "img": [
+                    "portfolio-safa"
+                ],
+                "tools": [
+                    "reactjs",
+                    "bootstrap",
+                    "scss-sass",
+                    "js",
+                    "nodejs"
+                ],
+                "desc": [
+                    ""
+                ],
+                "urlCode": "",
+                "urlSite": ["https://portfelio-safa.netlify.app"],
+                "urlProject": "old-portfolio",
+                "titleInfos": "Infos Projet",
+                "titleTools": "Les outils utilisés",
+                "titleProjet": "Création de mon ancien portfolio",
                 "btnsite": "Voir le site",
                 "btncode": "Code source"
             }
