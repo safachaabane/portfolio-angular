@@ -1,24 +1,24 @@
 {
-    "name": "test",
+    "name": "Portfolio Safa Chaabane",
     "menu": [
         {
             "id": 0,
-            "item": "Home",
+            "item": "Accueil",
             "link": "Home"
         },
         {
             "id": 1,
-            "item": "A propos",
+            "item": "À propos",
             "link": "aboutme"
         },
         {
             "id": 3,
-            "item": "Mes compétances",
+            "item": "Mes compétences",
             "link": "competances"
         },
         {
             "id": 2,
-            "item": "Mes experiences",
+            "item": "Mes expériences",
             "link": "experiences"
         },
         {
@@ -43,32 +43,32 @@
         }
     ],
     "slider": {
-        "salutation": "Salut",
+        "salutation": "Bonjour",
         "name1": "Je suis",
         "name2": "Safa Chaabane",
         "work": "Développeuse web",
         "description": "Concevant des solutions interactives et performantes pour répondre aux besoins des entreprises à travers le monde.",
-        "slogan": "Codeuse passionnée, créatrice d'univers web exceptionnels",
-        "contact": "Let's Talk",
+        "slogan": "Développeuse web passionnée, créatrice d'univers web exceptionnels",
+        "contact": "Contactez-moi",
         "cv": "Télécharger CV",
-        "scroll": "Scroll Down",
-        "socialNetwork": "Check Out My"
+        "scroll": "Défiler vers le bas",
+        "socialNetwork": "Consultez mes"
     },
     "aboutme": {
-        "note": "How I'm",
-        "title": "About Me",
+        "note": "Qui je suis",
+        "title": "À propos de moi",
         "welcome": "Bienvenue sur mon portfolio !",
         "desc1": "Je suis Safa Chaabane, une développeuse web avec près de 2 ans d'expérience. Mon parcours professionnel comprend une diversité de projets qui m'ont permis d'acquérir une expérience approfondie et de développer ma flexibilité pour trouver des solutions adaptées aux besoins spécifiques des entreprises ciblées. Cela renforce ma confiance dans ma capacité à fournir les meilleures solutions pour votre entreprise. ",
         "desc2": "J'apprécie l'apprentissage de nouvelles technologies, la recherche constante de défis, et l'implication dans des projets stimulants qui ont un impact significatif."
     },
     "services": {
-        "note": "What I Do",
+        "note": "Ce que je fais",
         "title": "Services | Offres",
         "list": [
             {
                 "id": 1,
                 "icon": "faCode",
-                "title": "Développement d'Applications Web",
+                "title": "Développement d'applications Web",
                 "description": "Conception et mise en œuvre d'applications web sur mesure répondant aux besoins spécifiques de vos clients."
             },
             {
@@ -80,18 +80,18 @@
             {
                 "id": 3,
                 "icon": "faCircleExclamationCheck",
-                "title": "Maintenance Continue",
+                "title": "Maintenance continue",
                 "description": "Résolution de bugs et de problèmes pour assurer la stabilité des projets, ainsi que des tests visant à garantir que les projets respectent les normes du W3C."
             }
         ]
     },
     "skills": {
-        "note": "What I Know",
-        "title": "My skills",
+        "note": "Ce que je sais",
+        "title": "Mes compétences",
         "desc": "Spécialiste en développement web passionné par l'intégration de maquettes et la résolution de problèmes dans le domaine des applications et sites web modernes.",
         "listSkills": [
             {
-                "title": "Language de programmation",
+                "title": "Langages de programmation",
                 "list": [
                     "ts",
                     "js",
@@ -135,15 +135,15 @@
         ]
     },
     "qualifications": {
-        "note": "Here's My",
+        "note": "Voici mes",
         "title": "Qualifications",
-        "titleExep": "Experiences",
-        "btn": "my tasks",
+        "titleExep": "Expériences",
+        "btn": "Mes tâches",
         "experience": [
             {
                 "id": 0,
                 "logo": "logozeta",
-                "workName": "Developpeuse web",
+                "workName": "Développeuse web",
                 "companyName": "Zeta engineering",
                 "date": "1/2023 – Présent",
                 "tasks": [
@@ -160,7 +160,7 @@
             {
                 "id": 1,
                 "logo": "freelance",
-                "workName": "workDeveloppeuse web",
+                "workName": "Développeuse web",
                 "companyName": "Freelance",
                 "date": "10/2022 – 1/2023",
                 "tasks": [
@@ -174,7 +174,7 @@
             {
                 "id": 2,
                 "logo": "emiketic",
-                "workName": "Developpeuse web",
+                "workName": "Développeuse web",
                 "companyName": "Emiketic",
                 "date": "4/2022 – 10/2022",
                 "tasks": [
@@ -218,7 +218,7 @@
                 "tools:": "CodeIgniter / MySQL / Bootstrap"
             }
         ],
-        "titleEduc": "Education",
+        "titleEduc": "Éducation",
         "education": [
             {
                 "id": 0,
@@ -251,14 +251,14 @@
         ]
     },
     "projets": {
-        "note": "Here's my ",
-        "title": "some Projects",
+        "note": "Voici mes",
+        "title": "Projets",
         "titlePage": "Mes projets",
-        "btn": "Voir Tous mes projets",
+        "btn": "Voir tous mes projets",
         "listProjects": [
             {
                 "id": 0,
-                "name": "luxury & Cosy",
+                "name": "Luxury & Cosy",
                 "img": [
                     "luxury-and-cosy"
                 ],
@@ -275,7 +275,9 @@
                     "Création du site Luxury and Cosy, qui propose une gamme complète de services pour aider les gens à réaliser la maison de leurs rêves. Luxury and Cosy offre une gamme complète de services pour vous aider à concrétiser la maison de vos rêves."
                 ],
                 "urlCode": "",
-                "urlSite": ["https://luxury-and-cosy.fr/"],
+                "urlSite": [
+                    "https://luxury-and-cosy.fr/"
+                ],
                 "urlProject": "luxury-and-cosy",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
@@ -299,14 +301,42 @@
                     "nodejs"
                 ],
                 "desc": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    ""
                 ],
                 "urlCode": "",
-                "urlSite": ["https://luxuryandcosy.fr/"],
+                "urlSite": [
+                    "https://luxuryandcosy.fr/"
+                ],
                 "urlProject": "archilux",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
                 "titleProjet": "Création d'un site web pour Archilux",
+                "btnsite": "Voir le site",
+                "btncode": "Code source"
+            },
+            {
+                "id": 10,
+                "name": "Zi Shopping",
+                "img": [
+                    "zishopping"
+                ],
+                "video": "zishopping",
+                "tools": [
+                    "reactjs",
+                    "bootstrap",
+                    "mongodb",
+                    "js",
+                    "nodejs"
+                ],
+                "desc": [
+                    ""
+                ],
+                "urlCode": "https://github.com/safachaabane/Zi-Shopping",
+                "urlSite": [],
+                "urlProject": "zi-shopping",
+                "titleInfos": "Infos Projet",
+                "titleTools": "Les outils utilisés",
+                "titleProjet": "Création du site e-commerce Zi Shopping ",
                 "btnsite": "Voir le site",
                 "btncode": "Code source"
             },
@@ -329,7 +359,9 @@
                     "Création d'un site web pour Spacy and Cosy, une entreprise spécialisée dans l'architecture et les études structurales, se consacrant à la création d'espaces uniques et fonctionnels. Sur ce site, nous décrivons leur expertise ainsi que leur passion pour le design, et les accompagnons dans la réalisation de projets, qu'il s'agisse de constructions neuves, de rénovations ou d'extensions."
                 ],
                 "urlCode": "",
-                "urlSite": ["https://spacy-and-cosy.fr/"],
+                "urlSite": [
+                    "https://spacy-and-cosy.fr/"
+                ],
                 "urlProject": "spacy-and-cosy",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
@@ -372,7 +404,24 @@
                     "Creation d'un pack des sites web pour des entreprises d'ingénierie, de conseil, de rénovation, de décoration,.. en France, qui sont spécialisée dans la gestion des projet de bâtiments, de construction et d'Infrastructures. "
                 ],
                 "urlCode": "",
-                "urlSite": ["https://1001-architecture.fr/","https://surf-com.fr/","https://truecom.fr/","https://maison-presto.com/","https://escaliere.fr/","https://klass-design.fr/","https://reno-deco.fr/","https://mur-mur.fr/","https://global-reno.fr/","https://sopranet.com/","https://renov-en-main.fr/","https://open-mur.fr/","https://enirop.com/","https://muretremie.fr/","https://architectis.fr/","https://agexis.com/"],
+                "urlSite": [
+                    "https://1001-architecture.fr/",
+                    "https://surf-com.fr/",
+                    "https://truecom.fr/",
+                    "https://maison-presto.com/",
+                    "https://escaliere.fr/",
+                    "https://klass-design.fr/",
+                    "https://reno-deco.fr/",
+                    "https://mur-mur.fr/",
+                    "https://global-reno.fr/",
+                    "https://sopranet.com/",
+                    "https://renov-en-main.fr/",
+                    "https://open-mur.fr/",
+                    "https://enirop.com/",
+                    "https://muretremie.fr/",
+                    "https://architectis.fr/",
+                    "https://agexis.com/"
+                ],
                 "urlProject": "pack-wordpress",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
@@ -397,11 +446,129 @@
                     ""
                 ],
                 "urlCode": "",
-                "urlSite": ["https://portfelio-safa.netlify.app"],
+                "urlSite": [
+                    "https://portfelio-safa.netlify.app"
+                ],
                 "urlProject": "old-portfolio",
                 "titleInfos": "Infos Projet",
                 "titleTools": "Les outils utilisés",
                 "titleProjet": "Création de mon ancien portfolio",
+                "btnsite": "Voir le site",
+                "btncode": "Code source"
+            },
+            {
+                "id": 5,
+                "name": "Elife fondation tunisie",
+                "img": [
+                    "elife-fondation-tunisie"
+                ],
+                "tools": [
+                    "reactjs",
+                    "bootstrap",
+                    "gatsby",
+                    "scss-sass",
+                    "js",
+                    "nodejs",
+                    "tagmanager",
+                    "analytics"
+                ],
+                "desc": [
+                    "Création d'une plateforme web pour le programme 'ELIFE', qui vise à construire 10 centres technologiques dédiés à la jeunesse tunisienne dans les dix régions les plus marginalisées et défavorisées de l'intérieur de la Tunisie (Siliana, Béja, Le Kef, Jendouba, Kairouan, Sidi Bouzid, Gafsa, Tozeur, Gabes et Médenine)."
+                ],
+                "urlCode": "",
+                "urlSite": [
+                    "https://elife.fondationtunisie.org/"
+                ],
+                "urlProject": "elife-fondation-tunisie",
+                "titleInfos": "Infos Projet",
+                "titleTools": "Les outils utilisés",
+                "titleProjet": "Création d'une plateforme web pour le programme 'ELIFE'",
+                "btnsite": "Voir le site",
+                "btncode": "Code source"
+            },
+            {
+                "id": 7,
+                "name": "Luxor : Technology and trade",
+                "img": [
+                    "luxor"
+                ],
+                "tools": [
+                    "reactjs",
+                    "bootstrap",
+                    "gatsby",
+                    "scss-sass",
+                    "js",
+                    "nodejs",
+                    "directus"
+                ],
+                "desc": [
+                    "Création d'un site web pour Luxor Technology & Trade, une entreprise tunisienne spécialisée dans le développement de solutions techniques pour le secteur de la construction. "
+                ],
+                "urlCode": "",
+                "urlSite": [
+                    "https://preview.luxor.eyespot.agency/"
+                ],
+                "urlProject": "luxor",
+                "titleInfos": "Infos Projet",
+                "titleTools": "Les outils utilisés",
+                "titleProjet": "Création du site web de Luxor",
+                "btnsite": "Voir le site",
+                "btncode": "Code source"
+            },
+            {
+                "id": 8,
+                "name": "Horizon Europe",
+                "img": [
+                    "horizon-europe"
+                ],
+                "tools": [
+                    "reactjs",
+                    "bootstrap",
+                    "gatsby",
+                    "scss-sass",
+                    "js",
+                    "nodejs",
+                    "strapi"
+                ],
+                "desc": [
+                    "Création du site web de Horizon Europe, le programme-cadre de recherche et d'innovation de l'Union européenne qui succède au programme Horizon 2020."
+                ],
+                "urlCode": "",
+                "urlSite": [
+                    "https://dev.serviced.horizon-europe.eyespot.agency/"
+                ],
+                "urlProject": "horizon-europe",
+                "titleInfos": "Infos Projet",
+                "titleTools": "Les outils utilisés",
+                "titleProjet": "Création du site web de Horizon Europe",
+                "btnsite": "Voir le site",
+                "btncode": "Code source"
+            },
+            {
+                "id": 8,
+                "name": "Ami Assurances",
+                "img": [
+                    "amiassurances"
+                ],
+                "tools": [
+                    "reactjs",
+                    "bootstrap",
+                    "gatsby",
+                    "scss-sass",
+                    "js",
+                    "nodejs"
+                ],
+                "desc": [
+                    " Création d'un site web pour AMI Assurances, qui propose des garanties et des services dans les domaines de l'assurance auto, de l'assurance habitation, de l'assurance santé, de l'assurance prévoyance, de l'épargne, des accidents, etc."
+                ],
+                "urlCode": "",
+                "urlSite": [
+                    "https://www.assurancesami.com/"
+                ],
+                "urlProject": "ami-assurances",
+                "titleInfos": "Infos Projet",
+                "titleTools": "Les outils utilisés",
+                "titleProjet": "Création du site web de Ami Assurances",
                 "btnsite": "Voir le site",
                 "btncode": "Code source"
             }
@@ -409,27 +576,27 @@
     },
     "contact": {
         "note": "Contact",
-        "title": "Let's make something amazing together.",
-        "desc": "Start By",
-        "link": "Saying hi",
-        "nameform": "Your name",
-        "mailform": "Email adress",
-        "subjectform": "Subject",
+        "title": "Créons quelque chose d'incroyable ensemble.",
+        "desc": "Commencez par",
+        "link": "Dire bonjour",
+        "nameform": "Votre nom",
+        "mailform": "Adresse e-mail",
+        "subjectform": "Sujet",
         "messageform": "Message",
-        "btnform": "Send Message"
+        "btnform": "Envoyer le message"
     },
     "footer": {
-        "copyright": "All Right Reserved",
-        "makewith": "made with ",
-        "makeby": "By Safa Chaabane",
+        "copyright": "Tous droits réservés",
+        "makewith": "fait avec ",
+        "makeby": "Par Safa Chaabane",
         "mail": "safa1chaabane@gmail.com"
     },
     "blogs": {
-        "title": "Blog",
-        "note": "Here's Some",
+        "title": "Blogs",
+        "note": "Voici quelques",
         "listBlog": [
             {
-                "title": "Découvrez les Dernières Mises à Jour de Tailwind CSS",
+                "title": "Découvrez les dernières mises à jour de Tailwind CSS",
                 "img": "tailwind",
                 "desc": [
                     {

@@ -1,56 +1,108 @@
 <div class="projet m-auto">
   <div class="row projet-title py-4">
-    <div class="col-1 ps-0"><button class="projet-title-icon" (click)="backLastPage()"><fa-icon size="xl"
-          [icon]="faLeft"></fa-icon></button></div>
+    <div class="col-1 ps-0">
+      <button class="projet-title-icon" (click)="backLastPage()">
+        <fa-icon size="xl" [icon]="faLeft"></fa-icon>
+      </button>
+    </div>
     <div class="col projet-title-text position-relative">
-      <h1 class="text-end">{{dataProjet.name}}</h1>
+      <h1 class="text-end">{{ dataProjet.name }}</h1>
     </div>
   </div>
-  <div class="position-relative"> <img class="h-100 w-100 m-auto"
-      [src]="'/assets/projects/' + (dataProjet.img[0] || '') + '.png'" alt={{dataProjet.img[0]}}
-      title={{dataProjet.img[0]}} /></div>
+  <div class="position-relative">
+    <img *ngIf="!dataProjet.video"
+      class="h-100 w-100 m-auto"
+      [src]="'/assets/projects/' + (dataProjet.img[0] || '') + '.png'"
+      alt="{{ dataProjet.img[0] }}"
+      title="{{ dataProjet.img[0] }}"
+    />
+    <video *ngIf="dataProjet.video"  width="100%"  poster="/assets/projects/zishopping.png" controls>
+    <source src="/assets/projects/zishopping.mp4" type="video/mp4">
+    <source src="/assets/projects/zishopping.ogg" type="video/ogg">
+    <source src="/assets/projects/zishopping.webm" type="video/webm">
+    <object data="/assets/projects/zishopping.mp4">
+    <embed src="/assets/projects/zishopping.swf">
+    </object>
+</video>
+  </div>
   <div class="row">
     <div class="col-lg-6">
-      <h2 class="py-2">{{dataProjet.titleInfos}}</h2>
-      <h3 *ngIf="dataProjet.titleProjet.length > 0">{{dataProjet.titleProjet}}</h3>
+      <h2 class="py-2">{{ dataProjet.titleInfos }}</h2>
+      <h3 *ngIf="dataProjet.titleProjet.length > 0">
+        {{ dataProjet.titleProjet }}
+      </h3>
       @for(item of dataProjet.desc; track $index){
-      <p>{{item}}</p>
-      } @empty {
-      pas de descriptions
-      }
+      <p>{{ item }}</p>
+      } @empty { pas de descriptions }
     </div>
     <div class="col-lg-6 projet-informations">
-      <h2 class="py-2">{{dataProjet.titleTools}}</h2>
+      <h2 class="py-2">{{ dataProjet.titleTools }}</h2>
       <div class="row p-4 d-flex justify-content-center flex-wrap">
         @for(item of dataProjet.tools; track $index){
-        <div class=" projet-informations-tools">
-          <img class="h-100 w-100" [src]="'/assets/icons/skills/' + (item || '') + '.png'" alt={{item}}
-            title={{item}} />
+        <div class="projet-informations-tools">
+          <img
+            class="h-100 w-100"
+            [src]="'/assets/icons/skills/' + (item || '') + '.png'"
+            alt="{{ item }}"
+            title="{{ item }}"
+          />
         </div>
-        } @empty {
-        pas de tools
-        }
+        } @empty { pas de tools }
       </div>
     </div>
   </div>
   <div class="row justify-content-center projet-link">
-    <div *ngIf="dataProjet.urlCode.length > 0" class="col"><a class=" m-auto d-block" href={{dataProjet.urlCode}}
-        target="_blank" rel="noopener noreferrer"><fa-icon size="xl" [icon]="faCode"></fa-icon>
-        {{dataProjet.btncode}}</a></div>
-    <div *ngIf="dataProjet.urlSite.length ==1" class="col"><a class="w-fit-content m-auto d-block"
-        href={{dataProjet.urlSite[0]}} target="_blank" rel="noopener noreferrer"><fa-icon size="xl"
-          [icon]="faLink"></fa-icon> {{dataProjet.btnsite}}</a></div>
+    <div *ngIf="dataProjet.urlCode.length > 0" class="col">
+      <a
+        class="m-auto d-block"
+        href="{{ dataProjet.urlCode }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><fa-icon size="xl" [icon]="faCode"></fa-icon>
+        {{ dataProjet.btncode }}</a
+      >
+    </div>
+    <div *ngIf="dataProjet.urlSite.length == 1" class="col">
+      <a
+        class="w-fit-content m-auto d-block"
+        href="{{ dataProjet.urlSite[0] }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><fa-icon size="xl" [icon]="faLink"></fa-icon>
+        {{ dataProjet.btnsite }}</a
+      >
+    </div>
   </div>
   <div class="row d-flex justify-content-center flex-wrap py-5">
     @for(item of dataProjet.img | slice : 1 ; track $index){
-    <div [ngClass]="{'col-lg-6 md-6 position-relative my-5': dataProjet.img.length < 4, 'col-lg-4 md-6 position-relative my-2': dataProjet.img.length >= 4}">
-      <img *ngIf="dataProjet.img.length ==1" class="h-100 w-100 " [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}} />
-      <a *ngIf="dataProjet.urlSite.length > 1" 
-        href={{dataProjet.urlSite[$index]}} target="_blank" rel="noopener noreferrer">    <img  class="h-100 w-100 my-5" [src]="'/assets/projects/' + (item || '') + '.png'" alt={{item}} title={{item}} /> </a>
+    <div
+      [ngClass]="{
+        'col-lg-6 md-6 position-relative my-5': dataProjet.img.length < 4,
+        'col-lg-4 md-6 position-relative my-2': dataProjet.img.length >= 4
+      }"
+    >
+      <img
+        *ngIf="dataProjet.img.length == 1"
+        class="h-100 w-100"
+        [src]="'/assets/projects/' + (item || '') + '.png'"
+        alt="{{ item }}"
+        title="{{ item }}"
+      />
+      <a
+        *ngIf="dataProjet.urlSite.length > 1"
+        href="{{ dataProjet.urlSite[$index] }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          class="h-100 w-100 my-5"
+          [src]="'/assets/projects/' + (item || '') + '.png'"
+          alt="{{ item }}"
+          title="{{ item }}"
+        />
+      </a>
     </div>
-    } @empty {
-   
-    }
+    } @empty { }
   </div>
 </div>
 <app-contact />
