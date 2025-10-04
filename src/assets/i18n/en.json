@@ -1,741 +1,679 @@
 {
-    "name": "Portfolio Safa Chaabane",
-    "menu": [
-        {
-            "id": 0,
-            "item": "Home",
-            "link": "Home"
-        },
-        {
-            "id": 1,
-            "item": "About Me",
-            "link": "aboutme"
-        },
-        {
-            "id": 3,
-            "item": "My Skills",
-            "link": "competances"
-        },
-        {
-            "id": 2,
-            "item": "My Experiences",
-            "link": "experiences"
-        },
-        {
-            "id": 2,
-            "item": "My Services",
-            "link": "services"
-        },
-        {
-            "id": 4,
-            "item": "My Projects",
-            "link": "projets"
-        },
-        {
-            "id": 5,
-            "item": "Blog",
-            "link": "blog"
-        },
-        {
-            "id": 6,
-            "item": "Contact",
-            "link": "contact"
-        }
-    ],
-    "slider": {
-        "salutation": "Hello",
-        "name1": "I am",
-        "name2": "Safa Chaabane",
-        "work": "Web Developer",
-        "description": "Designing interactive and high-performance solutions to meet the needs of businesses worldwide.",
-        "slogan": "Passionate web developer, creator of exceptional web universes",
-        "contact": "Contact Me",
-        "cv": "Download CV",
-        "scroll": "Scroll Down",
-        "socialNetwork": "Check out my"
+  "name": "Portfolio Safa Chaabane",
+  "menu": [
+    {
+      "id": 0,
+      "item": "Home",
+      "link": "Home"
     },
-    "aboutme": {
-        "note": "Who I am",
-        "title": "About Me",
-        "welcome": "Welcome to my portfolio!",
-        "desc1": "I am Safa Chaabane, a web developer with nearly 2 years of experience. My professional journey includes a variety of projects that have allowed me to gain in-depth experience and develop my flexibility to find solutions tailored to the specific needs of targeted businesses. This strengthens my confidence in my ability to provide the best solutions for your business.",
-        "desc2": "I enjoy learning new technologies, constantly seeking challenges, and getting involved in stimulating projects that have a significant impact."
+    {
+      "id": 1,
+      "item": "About Me",
+      "link": "aboutme"
     },
-    "services": {
-        "note": "What I Do",
-        "title": "Services | Offers",
-        "list": [
-            {
-                "id": 1,
-                "icon": "faCode",
-                "title": "Web Application Development",
-                "description": "Design and implementation of custom web applications tailored to the specific needs of your clients."
-            },
-            {
-                "id": 2,
-                "icon": "faWandMagicSparkles",
-                "title": "Web Integration",
-                "description": "Collaboration with designers to integrate graphic mockups into functional and aesthetically pleasing websites."
-            },
-            {
-                "id": 3,
-                "icon": "faCircleExclamationCheck",
-                "title": "Continuous Maintenance",
-                "description": "Bug resolution and troubleshooting to ensure project stability, as well as testing to ensure projects meet W3C standards."
-            }
-        ]
+    {
+      "id": 3,
+      "item": "My Skills",
+      "link": "competances"
     },
-    "skills": {
-        "note": "What I Know",
-        "title": "My Skills",
-        "desc": "Web development specialist passionate about integrating mockups and problem-solving in the field of modern applications and websites.",
-        "listSkills": [
-            {
-                "title": "Programming Languages",
-                "list": [
-                    "ts",
-                    "js",
-                    "python",
-                    "php"
-                ]
-            },
-            {
-                "title": "Web Development",
-                "list": [
-                    "nodejs",
-                    "reactjs",
-                    "redux",
-                    "nextjs",
-                    "angular",
-                    "gatsby",
-                    "bootstrap",
-                    "materialui",
-                    "tailwind",
-                    "scss-sass",
-                    "wordpress",
-                    "expressjs",
-                    "laravel",
-                    "postman"
-                ]
-            },
-            {
-                "title": "Other Technologies",
-                "list": [
-                    "mongodb",
-                    "mysql",
-                    "git",
-                    "github",
-                    "gitlab",
-                    "hostinger",
-                    "ovh",
-                    "restapi",
-                    "graphql"
-                ]
-            }
-        ]
+    {
+      "id": 2,
+      "item": "My Experiences",
+      "link": "experiences"
     },
-    "qualifications": {
-        "note": "Here's My",
-        "title": "Qualifications",
-        "titleExep": "Experiences",
-        "btn": "my tasks",
-        "experience": [
-            {
-                "id": 0,
-                "logo": "logozeta",
-                "workName": "Web Developer",
-                "companyName": "Zeta engineering",
-                "date": "1/2023 – Present",
-                "tasks": [
-                    "Creation of a set of websites with a custom design using ReactJs, NextJs,bootstrap: structural-metal.fr, spacy-and-cosy.fr,structural-home.fr, structural-wood.fr",
-                    "Creation of various custom and adaptive WordPress sites from design mockups, including advanced WordPress features such as custom post types, advanced custom fields, and creation of custom shortcodes: architectis.fr, reno-deco.fr, maisonpresto.com, klass-design.fr, mur-mur.fr, sopranet.fr, ...",
-                    "Maintenance, bug fixing, and improvement of existing websites and applications.",
-                    "Use of GitHub and GitLab for code versioning management, with team collaboration using the Scrum methodology.",
-                    "Ensuring responsiveness and adherence to UI/UX rules.",
-                    "Improving on-page SEO performance.",
-                    "Deployment of websites on OVH and Hostinger."
-                ],
-                "tools": "reactJs / NextJs / Bootsrap / Tailwind CSS / Hostinger / WordPress / Git"
-            },
-            {
-                "id": 1,
-                "logo": "freelance",
-                "workName": "Web Developer",
-                "companyName": "Freelance",
-                "date": "10/2022 – 1/2023",
-                "tasks": [
-                    "Creation of an E-commerce Website with an admin dashboard.",
-                    "Creation of a movie management application.",
-                    "Integration of a Luxury Hotel showcase website mockup.",
-                    "Creation of my portfolio."
-                ],
-                "tools": "ReactJs / Bootstrap / NodeJs / ExpressJs / MongoDB / Google Analytics"
-            },
-            {
-                "id": 2,
-                "logo": "emiketic",
-                "workName": "Web Developer",
-                "companyName": "Emiketic",
-                "date": "4/2022 – 10/2022",
-                "tasks": [
-                    "Development of responsive websites: Elife fondation tunisie, Horizon europe, Luxor technology and trade, Ami assurances.",
-                    "Manipulation of APIs via rest api and graphQl.",
-                    "Creation and execution of Google app script scripts."
-                ],
-                "tools": "ReactJs / Gatsby / NodeJs / ExpressJs / Bootstrap / MaterialUI / Google+API / Strapi / diractus / Google analytics / Google Tag Manager"
-            },
-            {
-                "id": 3,
-                "logo": "softhyma",
-                "workName": "Graphic Designer",
-                "companyName": "Softhyma",
-                "date": "3/2021 – 4/2021",
-                "tasks": [
-                    "Creation of advertising posters and graphic charters."
-                ],
-                "tools:": "Adobe illustrateur / Adobe photoshop / Adobe premier"
-            },
-            {
-                "id": 4,
-                "logo": "crns",
-                "workName": "Memory Internship",
-                "companyName": "Digital Research Center of Sfax (CRNS)",
-                "date": "2/2020 – 12/2021",
-                "tasks": [
-                    "Creation of an explicable VAE algorithm for representation learning."
-                ],
-                "tools:": "Python / tensorFlow / Deep Learning"
-            },
-            {
-                "id": 5,
-                "logo": "eds",
-                "workName": "PFE Internship",
-                "companyName": "EDS ((Expert Dev Solutions)",
-                "date": "2/2018 – 5/2018",
-                "tasks": [
-                    "Creation of a web application for managing the production of an electrical equipment manufacturing plant."
-                ],
-                "tools:": "CodeIgniter / MySQL / Bootstrap"
-            }
-        ],
-        "titleEduc": "Education",
-        "education": [
-            {
-                "id": 0,
-                "logo": "goMyCode",
-                "diplomaName": "Full stack JS (MERN) ",
-                "schoolName": "GoMyCode",
-                "date": "3/2021 - 8/2021"
-            },
-            {
-                "id": 1,
-                "logo": "Isims",
-                "diplomaName": "Master's degree in computer science and multimedia research",
-                "schoolName": "Institut supérieur d'informatique et multimédia Sfax",
-                "date": "9/2018 - 12/2021"
-            },
-            {
-                "id": 2,
-                "logo": "Isims",
-                "diplomaName": "Bachelor's degree in computer science and multimedia",
-                "schoolName": "Institut supérieur d'informatique et multimédia Sfax",
-                "date": "9/2015 - 6/2018"
-            },
-            {
-                "id": 3,
-                "logo": "lyceeNahjMenzahBniKhalled",
-                "diplomaName": "Mathematics Baccalaureate",
-                "schoolName": "Lycee Nahj Menzah",
-                "date": "9/2014 - 6/2015"
-            }
-        ]
+    {
+      "id": 2,
+      "item": "My Services",
+      "link": "services"
     },
-    "projets": {
-        "note": "Here's my",
-        "title": "Projects",
-        "titlePage": "My projects",
-        "btn": "View all my projects",
-        "listProjects": [
-            {
-                "id": 0,
-                "name": "Luxury & Cosy",
-                "img": [
-                    "luxury-and-cosy"
-                ],
-                "tools": [
-                    "nextjs",
-                    "reactjs",
-                    "tailwind",
-                    "scss-sass",
-                    "hostinger",
-                    "ovh",
-                    "nodejs"
-                ],
-                "desc": [
-                    "Creation of the Luxury and Cosy website, which offers a complete range of services to help people realize their dream home. Luxury and Cosy offers a complete range of services to help you realize your dream home."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://luxury-and-cosy.fr/"
-                ],
-                "urlProject": "luxury-and-cosy",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of the Luxury and Cosy website",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 1,
-                "name": "Archilux",
-                "img": [
-                    "agexis"
-                ],
-                "tools": [
-                    "nextjs",
-                    "reactjs",
-                    "tailwind",
-                    "scss-sass",
-                    "hostinger",
-                    "ovh",
-                    "nodejs"
-                ],
-                "desc": [
-                    ""
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://luxuryandcosy.fr/"
-                ],
-                "urlProject": "archilux",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of a website for Archilux",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 10,
-                "name": "Zi Shopping",
-                "img": [
-                    "zishopping"
-                ],
-                "video": "zishopping",
-                "tools": [
-                    "reactjs",
-                    "bootstrap",
-                    "mongodb",
-                    "js",
-                    "nodejs"
-                ],
-                "desc": [
-                    ""
-                ],
-                "urlCode": "https://github.com/safachaabane/Zi-Shopping",
-                "urlSite": [],
-                "urlProject": "zi-shopping",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of the Zi Shopping e-commerce site",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 2,
-                "name": "Spacy and Cosy",
-                "img": [
-                    "spacy-and-cosy"
-                ],
-                "tools": [
-                    "nextjs",
-                    "reactjs",
-                    "bootstrap",
-                    "scss-sass",
-                    "hostinger",
-                    "js",
-                    "nodejs"
-                ],
-                "desc": [
-                    "Creation of a website for Spacy and Cosy, a company specializing in architecture and structural studies, dedicated to creating unique and functional spaces. On this site, we describe their expertise as well as their passion for design, and accompany them in the realization of projects, whether they are new constructions, renovations or extensions."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://spacy-and-cosy.fr/"
-                ],
-                "urlProject": "spacy-and-cosy",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of a website for Spacy and Cosy",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 3,
-                "name": "Pack of WordPress sites",
-                "img": [
-                    "all-sitewordpress",
-                    "1001-architecture",
-                    "surfcom",
-                    "truecom",
-                    "maison-presto",
-                    "escaliere",
-                    "klass-design",
-                    "reno-deco",
-                    "mur-mur",
-                    "reno-global",
-                    "sopranet",
-                    "renov-en-main",
-                    "open-mur",
-                    "enirop",
-                    "muretremie",
-                    "architectis",
-                    "agexis"
-                ],
-                "tools": [
-                    "nextjs",
-                    "reactjs",
-                    "bootstrap",
-                    "scss-sass",
-                    "hostinger",
-                    "js",
-                    "nodejs"
-                ],
-                "desc": [
-                    "Creation of a pack of websites for engineering, consulting, renovation, decoration, etc. companies in France, which specialize in managing building, construction and infrastructure projects."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://1001-architecture.fr/",
-                    "https://surf-com.fr/",
-                    "https://truecom.fr/",
-                    "https://maison-presto.com/",
-                    "https://escaliere.fr/",
-                    "https://klass-design.fr/",
-                    "https://reno-deco.fr/",
-                    "https://mur-mur.fr/",
-                    "https://global-reno.fr/",
-                    "https://sopranet.com/",
-                    "https://renov-en-main.fr/",
-                    "https://open-mur.fr/",
-                    "https://enirop.com/",
-                    "https://muretremie.fr/",
-                    "https://architectis.fr/",
-                    "https://agexis.com/"
-                ],
-                "urlProject": "pack-wordpress",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of a pack of 16 sites with the WordPress CMS",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 4,
-                "name": "My portfolio",
-                "img": [
-                    "portfolio-safa"
-                ],
-                "tools": [
-                    "reactjs",
-                    "bootstrap",
-                    "scss-sass",
-                    "js",
-                    "nodejs"
-                ],
-                "desc": [
-                    ""
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://portfelio-safa.netlify.app"
-                ],
-                "urlProject": "old-portfolio",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of my old portfolio",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 5,
-                "name": "Elife Foundation Tunisia",
-                "img": [
-                    "elife-fondation-tunisie"
-                ],
-                "tools": [
-                    "reactjs",
-                    "bootstrap",
-                    "gatsby",
-                    "scss-sass",
-                    "js",
-                    "nodejs",
-                    "tagmanager",
-                    "analytics"
-                ],
-                "desc": [
-                    "Creation of a web platform for the 'ELIFE' program, which aims to build 10 technology centers dedicated to Tunisian youth in the ten most marginalized and disadvantaged regions in the interior of Tunisia (Siliana, Béja, Le Kef, Jendouba, Kairouan, Sidi Bouzid, Gafsa, Tozeur, Gabes and Médenine)."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://elife.fondationtunisie.org/"
-                ],
-                "urlProject": "elife-fondation-tunisie",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of a web platform for the 'ELIFE' program",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 7,
-                "name": "Luxor : Technology and trade",
-                "img": [
-                    "luxor"
-                ],
-                "tools": [
-                    "reactjs",
-                    "bootstrap",
-                    "gatsby",
-                    "scss-sass",
-                    "js",
-                    "nodejs",
-                    "directus"
-                ],
-                "desc": [
-                    "Creation of a website for Luxor Technology & Trade, a Tunisian company specializing in the development of technical solutions for the construction sector."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://preview.luxor.eyespot.agency/"
-                ],
-                "urlProject": "luxor",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of the Luxor website",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 8,
-                "name": "Horizon Europe",
-                "img": [
-                    "horizon-europe"
-                ],
-                "tools": [
-                    "reactjs",
-                    "bootstrap",
-                    "gatsby",
-                    "scss-sass",
-                    "js",
-                    "nodejs",
-                    "strapi"
-                ],
-                "desc": [
-                    "Creation of the Horizon Europe website, the European Union's research and innovation framework program that succeeds the Horizon 2020 program."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://dev.serviced.horizon-europe.eyespot.agency/"
-                ],
-                "urlProject": "horizon-europe",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of the Horizon Europe website",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            },
-            {
-                "id": 8,
-                "name": "Ami Assurances",
-                "img": [
-                    "amiassurances"
-                ],
-                "tools": [
-                    "reactjs",
-                    "bootstrap",
-                    "gatsby",
-                    "scss-sass",
-                    "js",
-                    "nodejs"
-                ],
-                "desc": [
-                    "Creation of a website for AMI Assurances, which offers guarantees and services in the fields of car insurance, home insurance, health insurance, provident insurance, savings, accidents, etc."
-                ],
-                "urlCode": "",
-                "urlSite": [
-                    "https://www.assurancesami.com/"
-                ],
-                "urlProject": "ami-assurances",
-                "titleInfos": "Project Info",
-                "titleTools": "Tools used",
-                "titleProjet": "Creation of the AMI Assurances website",
-                "btnsite": "View site",
-                "btncode": "Source code"
-            }
-        ]
+    {
+      "id": 4,
+      "item": "My Projects",
+      "link": "projets"
     },
-    "contact": {
-        "note": "Contact",
-        "title": "Let's make something amazing together.",
-        "desc": "Start By",
-        "link": "Saying hi",
-        "nameform": "Your name",
-        "mailform": "Email adress",
-        "subjectform": "Subject",
-        "messageform": "Message",
-        "btnform": "Send Message"
+    {
+      "id": 5,
+      "item": "Blog",
+      "link": "blog"
     },
-    "footer": {
-        "copyright": "All Right Reserved",
-        "makewith": "made with ",
-        "makeby": "By Safa Chaabane",
-        "mail": "safa1chaabane@gmail.com"
-    },
-    "blogs": {
-        "title": "Blogs",
-        "note": "Here's Some",
-        "listBlog": [
-            {
-                "title": "Discover the Latest Updates from Tailwind CSS",
-                "img": "tailwind",
-                "desc": [
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "Tailwind CSS v3.3 has arrived with a plethora of new features, addressing persistent community requests and introducing surprising innovations. Here's an overview of the highlights of this release:"
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Expanded Color Palette for Dark Tones:",
-                        "desc": "Added darker shades (950) for each color, ideal for dark user interfaces."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "ESM and TypeScript Support:",
-                        "desc": "Streamlined configuration with the ability to write the configuration file in ESM or TypeScript."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Simplified RTL Support with Logical Properties: ",
-                        "desc": "Use of logical properties to simplify styling of bidirectional websites."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Fine-tuned Gradient Color Stop Positions: ",
-                        "desc": "New utilities to specify the exact location of each color stop in gradients."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Line Clamp Out of the Box: ",
-                        "desc": "Truncation of text over multiple lines without the need for a plugin."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "New Line Height Modifier: ",
-                        "desc": "Simultaneous setting of font size and line height with a single class."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "CSS Variables Without var(): ",
-                        "desc": "New shorthand syntax for using CSS variables as arbitrary values."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Configurable Font Variation Settings: ",
-                        "desc": " Configuration of font variation settings directly in font-* utilities."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "New list-style-image Utilities:",
-                        "desc": " Ability to use custom images as list markers."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "New hyphens Utilities:",
-                        "desc": "Improved hyphenation behavior with new hyphens-* utilities."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "New caption Utilities:",
-                        "desc": "Control of the positioning of table captions with caption-* utilities."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "These exciting additions enhance the efficiency and flexibility of Tailwind CSS. Update today using the npm install -D tailwindcss@latest command. Explore these features in your projects for an even more rewarding development experience!"
-                    }
-                ],
-                "slug": "Discover-the-Latest-Updates-from-Tailwind-CSS"
-            },
-            {
-                "title": "Angular 17: A Major Leap Forward in Web Development",
-                "img": "angular",
-                "desc": [
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "The latest iteration of Angular, version 17, was unveiled on November 8th, bringing with it a host of groundbreaking features for web application developers. One of the major advances is the introduction of an integrated control flow, providing a more intuitive and JavaScript-like syntax. This control flow significantly enhances performance, with up to 90% faster execution times for embedded loops, up to 87% faster hybrid renders, and up to 67% faster client-side builds."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "Angular 17 also introduces new lifecycle hooks, afterRender and afterNextRender, aimed at improving server-side rendering (SSR) and static site generation (SSG) performance. This release marks another step towards performance improvement with a focus on reducing DOM emulation and direct DOM manipulations."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "Among other notable features, hydration, now enabled by default, enhances performance by avoiding DOM node recreation when restoring server-side rendered application on the client. Additionally, the Signals feature, which ensures granular tracking of application state, is no longer in developer preview, offering optimized capability for render updates."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "Angular 17 reaffirms its commitment to innovation and performance, providing an even more powerful and efficient web development experience."
-                    }
-                ],
-                "slug": "Angular-17-A-Major-Leap-Forward-in-Web-Development"
-            },
-            {
-                "title": "Next.js 14: Revolutionizing Web Development with Its New Features!",
-                "img": "nextjs",
-                "desc": [
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "Next.js 14, the latest version of the open-source web development framework, is a major breakthrough in the web development ecosystem. This iteration offers innovative features, with the Next.js Turbopack compiler and an exclusive preview of Partial Pre-render leading the pack."
-                    },
-                    {
-                        "title": "Next.js Uses and Features",
-                        "subtitle": "",
-                        "desc": "Next.js, built around React, simplifies the creation of modern web applications with powerful tools. It supports Server-Side Rendering (SSR) and Static Site Generation (SSG), streamlines React, offers Hot Module Replacement (HMR), and enables Dynamic Pre-rendering."
-                    },
-                    {
-                        "title": "Next.js 14: Pushing Web Development Boundaries",
-                        "subtitle": "Next.js Turbopack: Faster, More Efficient",
-                        "desc": "The new backbone, Next.js Turbopack, enhances the compiler with a 53% faster local server startup. Fast Refresh is adopted for faster code updates, with a remarkable 94% efficiency."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Server Actions (Stable): Streamlined Mutation",
-                        "desc": "Next.js 14 stabilizes server actions, simplifying mutations with cache integration and revalidation, ensuring a smoother user experience."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Partial Pre-renders (Preview): Marrying Static and Dynamic",
-                        "desc": "The Partial Pre-render preview combines quick static response with continuous loading of dynamic content, promising enhanced performance and a responsive user experience."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "Next.js Learn (New): Education in Focus",
-                        "desc": "The introduction of Next.js Learn offers a comprehensive free course covering various aspects of development, demonstrating Next.js's commitment to developer education and empowerment."
-                    },
-                    {
-                        "title": "",
-                        "subtitle": "",
-                        "desc": "In conclusion, Next.js 14 redefines web development standards. Improvements such as Turbopack, stabilized server actions, partial pre-renders, and Next.js Learn strengthen its position as a go-to choice for developers. The community is eager to explore the new possibilities offered by this iteration and elevate their web projects to even greater heights."
-                    }
-                ],
-                "slug": "NextJs-14-Revolutionizing-Web-Development-with-Its-New-Features!"
-            }
-        ]
+    {
+      "id": 6,
+      "item": "Contact",
+      "link": "contact"
     }
+  ],
+  "slider": {
+    "salutation": "Hello",
+    "name1": "I am",
+    "name2": "Safa Chaabane",
+    "work": "Full stack Developer",
+    "description": "Designing interactive and high-performance solutions to meet the needs of businesses worldwide.",
+    "slogan": "Passionate web developer, creator of exceptional web universes",
+    "contact": "Contact Me",
+    "cv": "Download CV",
+    "scroll": "Scroll Down",
+    "socialNetwork": "Check out my"
+  },
+  "aboutme": {
+    "note": "Who I am",
+    "title": "About Me",
+    "welcome": "Welcome to my portfolio!",
+    "desc1": {
+      "0": "I am Safa Chaabane, a web developer with more than",
+      "1": "years of experience. My professional journey includes a variety of projects that have allowed me to gain in-depth experience and develop my flexibility to find solutions tailored to the specific needs of targeted businesses. This strengthens my confidence in my ability to provide the best solutions for your business."
+    },
+    "desc2": "I enjoy learning new technologies, constantly seeking challenges, and getting involved in stimulating projects that have a significant impact."
+  },
+  "services": {
+    "note": "What I Do",
+    "title": "Services | Offers",
+    "list": [
+      {
+        "id": 1,
+        "icon": "faCode",
+        "title": "Web Application Development",
+        "description": "Design and implementation of custom web applications tailored to the specific needs of your clients."
+      },
+      {
+        "id": 2,
+        "icon": "faWandMagicSparkles",
+        "title": "Web Integration",
+        "description": "Collaboration with designers to integrate graphic mockups into functional and aesthetically pleasing websites."
+      },
+      {
+        "id": 3,
+        "icon": "faCircleExclamationCheck",
+        "title": "Continuous Maintenance",
+        "description": "Bug resolution and troubleshooting to ensure project stability, as well as testing to ensure projects meet W3C standards."
+      }
+    ]
+  },
+  "skills": {
+    "note": "What I Know",
+    "title": "My Skills",
+    "desc": "Web development specialist passionate about integrating mockups and problem-solving in the field of modern applications and websites.",
+    "listSkills": [
+      {
+        "title": "Programming Languages",
+        "list": ["ts", "js", "python", "php"]
+      },
+      {
+        "title": "Web Development",
+        "list": [
+          "nodejs",
+          "reactjs",
+          "redux",
+          "nextjs",
+          "angular",
+          "gatsby",
+          "bootstrap",
+          "materialui",
+          "tailwind",
+          "scss-sass",
+          "wordpress",
+          "expressjs",
+          "laravel",
+          "postman"
+        ]
+      },
+      {
+        "title": "Other Technologies",
+        "list": [
+          "mongodb",
+          "mysql",
+          "git",
+          "github",
+          "gitlab",
+          "restapi",
+          "graphql"
+        ]
+      }
+    ]
+  },
+  "qualifications": {
+    "note": "Here's My",
+    "title": "Qualifications",
+    "titleExep": "Experiences",
+    "btn": "my tasks",
+    "experience": [
+      {
+        "id": 0,
+        "logo": "logo3s",
+        "workName": "Full Stack Developer",
+        "companyName": "3s",
+        "date": "8/2024 - Present",
+        "tasks": [
+          "Development and maintenance of internal applications and dashboards for the company.",
+          "Creation of interactive games such as roulette and slot machines for contests and promotions.",
+          "Design and development of custom websites with management dashboards using ReactJs, NextJs, Tailwind CSS, and Express Js.",
+          "Development of personalized and responsive WordPress sites based on design mockups, including advanced features such as Custom Post Types, Advanced Custom Fields, and custom shortcodes.",
+          "Maintenance, bug fixing, and optimization of existing websites and applications.",
+          "Code versioning and team collaboration using GitHub and GitLab, following Scrum methodology.",
+          "Ensuring responsiveness, usability, and adherence to UI/UX best practices.",
+          "On-page SEO optimization to improve site visibility.",
+          "Deployment of websites on internal servers with full configuration and automated deployment processes for reliable and repeatable workflows."
+        ],
+        "tools": "ReactJs / NextJs / ExpressJS / Tailwind CSS / VPS / WordPress / Git"
+      },
+      {
+        "id": 1,
+        "logo": "logozeta",
+        "workName": "Web Developer",
+        "companyName": "Zeta engineering",
+        "date": "1/2023 – 8/2024",
+        "tasks": [
+          "Creation of a set of websites with a custom design using ReactJs, NextJs,bootstrap: structural-metal.fr, spacy-and-cosy.fr,structural-home.fr, structural-wood.fr",
+          "Creation of various custom and adaptive WordPress sites from design mockups, including advanced WordPress features such as custom post types, advanced custom fields, and creation of custom shortcodes: architectis.fr, reno-deco.fr, maisonpresto.com, klass-design.fr, mur-mur.fr, sopranet.fr, ...",
+          "Maintenance, bug fixing, and improvement of existing websites and applications.",
+          "Use of GitHub and GitLab for code versioning management, with team collaboration using the Scrum methodology.",
+          "Ensuring responsiveness and adherence to UI/UX rules.",
+          "Improving on-page SEO performance.",
+          "Deployment of websites."
+        ],
+        "tools": "reactJs / NextJs / Bootsrap / Tailwind CSS / Hostinger / WordPress / Git"
+      },
+      {
+        "id": 2,
+        "logo": "emiketic",
+        "workName": "Web Developer",
+        "companyName": "Emiketic",
+        "date": "4/2022 – 10/2022",
+        "tasks": [
+          "Development of responsive websites: Elife fondation tunisie, Horizon europe, Luxor technology and trade, Ami assurances.",
+          "Manipulation of APIs via rest api and graphQl.",
+          "Creation and execution of Google app script scripts."
+        ],
+        "tools": "ReactJs / Gatsby / NodeJs / ExpressJs / Bootstrap / MaterialUI / Google+API / Strapi / diractus / Google analytics / Google Tag Manager"
+      },
+      {
+        "id": 3,
+        "logo": "crns",
+        "workName": "Memory Internship",
+        "companyName": "Digital Research Center of Sfax (CRNS)",
+        "date": "2/2020 – 12/2021",
+        "tasks": [
+          "Creation of an explicable VAE algorithm for representation learning."
+        ],
+        "tools:": "Python / tensorFlow / Deep Learning"
+      },
+      {
+        "id": 4,
+        "logo": "eds",
+        "workName": "PFE Internship",
+        "companyName": "EDS ((Expert Dev Solutions)",
+        "date": "2/2018 – 5/2018",
+        "tasks": [
+          "Creation of a web application for managing the production of an electrical equipment manufacturing plant."
+        ],
+        "tools:": "CodeIgniter / MySQL / Bootstrap"
+      }
+    ],
+    "titleEduc": "Education",
+    "education": [
+      {
+        "id": 0,
+        "logo": "goMyCode",
+        "diplomaName": "Full stack JS (MERN) ",
+        "schoolName": "GoMyCode",
+        "date": "3/2021 - 8/2021"
+      },
+      {
+        "id": 1,
+        "logo": "Isims",
+        "diplomaName": "Master's degree in computer science and multimedia research",
+        "schoolName": "Institut supérieur d'informatique et multimédia Sfax",
+        "date": "9/2018 - 12/2021"
+      },
+      {
+        "id": 2,
+        "logo": "Isims",
+        "diplomaName": "Bachelor's degree in computer science and multimedia",
+        "schoolName": "Institut supérieur d'informatique et multimédia Sfax",
+        "date": "9/2015 - 6/2018"
+      },
+      {
+        "id": 3,
+        "logo": "lyceeNahjMenzahBniKhalled",
+        "diplomaName": "Mathematics Baccalaureate",
+        "schoolName": "Lycee Nahj Menzah",
+        "date": "9/2014 - 6/2015"
+      }
+    ]
+  },
+  "projets": {
+    "note": "Here's my",
+    "title": "Projects",
+    "titlePage": "My projects",
+    "btn": "View all my projects",
+    "listProjects": [
+      {
+        "id": 0,
+        "name": "Luxury & Cosy",
+        "img": ["luxury-and-cosy"],
+        "tools": [
+          "nextjs",
+          "reactjs",
+          "tailwind",
+          "scss-sass",
+          "hostinger",
+          "ovh",
+          "nodejs"
+        ],
+        "desc": [
+          "Creation of the Luxury and Cosy website, which offers a complete range of services to help people realize their dream home. Luxury and Cosy offers a complete range of services to help you realize your dream home."
+        ],
+        "urlCode": "",
+        "urlSite": ["https://luxury-and-cosy.fr/"],
+        "urlProject": "luxury-and-cosy",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of the Luxury and Cosy website",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 1,
+        "name": "Archilux",
+        "img": ["agexis"],
+        "tools": [
+          "nextjs",
+          "reactjs",
+          "tailwind",
+          "scss-sass",
+          "hostinger",
+          "ovh",
+          "nodejs"
+        ],
+        "desc": [""],
+        "urlCode": "",
+        "urlSite": ["https://luxuryandcosy.fr/"],
+        "urlProject": "archilux",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of a website for Archilux",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 10,
+        "name": "Zi Shopping",
+        "img": ["zishopping"],
+        "video": "zishopping",
+        "tools": ["reactjs", "bootstrap", "mongodb", "js", "nodejs"],
+        "desc": [""],
+        "urlCode": "https://github.com/safachaabane/Zi-Shopping",
+        "urlSite": [],
+        "urlProject": "zi-shopping",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of the Zi Shopping e-commerce site",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 2,
+        "name": "Spacy and Cosy",
+        "img": ["spacy-and-cosy"],
+        "tools": [
+          "nextjs",
+          "reactjs",
+          "bootstrap",
+          "scss-sass",
+          "hostinger",
+          "js",
+          "nodejs"
+        ],
+        "desc": [
+          "Creation of a website for Spacy and Cosy, a company specializing in architecture and structural studies, dedicated to creating unique and functional spaces. On this site, we describe their expertise as well as their passion for design, and accompany them in the realization of projects, whether they are new constructions, renovations or extensions."
+        ],
+        "urlCode": "",
+        "urlSite": ["https://spacy-and-cosy.fr/"],
+        "urlProject": "spacy-and-cosy",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of a website for Spacy and Cosy",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 3,
+        "name": "Pack of WordPress sites",
+        "img": [
+          "all-sitewordpress",
+          "1001-architecture",
+          "surfcom",
+          "truecom",
+          "maison-presto",
+          "escaliere",
+          "klass-design",
+          "reno-deco",
+          "mur-mur",
+          "reno-global",
+          "sopranet",
+          "renov-en-main",
+          "open-mur",
+          "enirop",
+          "muretremie",
+          "architectis",
+          "agexis"
+        ],
+        "tools": [
+          "nextjs",
+          "reactjs",
+          "bootstrap",
+          "scss-sass",
+          "hostinger",
+          "js",
+          "nodejs"
+        ],
+        "desc": [
+          "Creation of a pack of websites for engineering, consulting, renovation, decoration, etc. companies in France, which specialize in managing building, construction and infrastructure projects."
+        ],
+        "urlCode": "",
+        "urlSite": [
+          "https://1001-architecture.fr/",
+          "https://surf-com.fr/",
+          "https://truecom.fr/",
+          "https://maison-presto.com/",
+          "https://escaliere.fr/",
+          "https://klass-design.fr/",
+          "https://reno-deco.fr/",
+          "https://mur-mur.fr/",
+          "https://global-reno.fr/",
+          "https://sopranet.com/",
+          "https://renov-en-main.fr/",
+          "https://open-mur.fr/",
+          "https://enirop.com/",
+          "https://muretremie.fr/",
+          "https://architectis.fr/",
+          "https://agexis.com/"
+        ],
+        "urlProject": "pack-wordpress",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of a pack of 16 sites with the WordPress CMS",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 4,
+        "name": "My portfolio",
+        "img": ["portfolio-safa"],
+        "tools": ["reactjs", "bootstrap", "scss-sass", "js", "nodejs"],
+        "desc": [""],
+        "urlCode": "",
+        "urlSite": ["https://portfelio-safa.netlify.app"],
+        "urlProject": "old-portfolio",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of my old portfolio",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 5,
+        "name": "Elife Foundation Tunisia",
+        "img": ["elife-fondation-tunisie"],
+        "tools": [
+          "reactjs",
+          "bootstrap",
+          "gatsby",
+          "scss-sass",
+          "js",
+          "nodejs",
+          "tagmanager",
+          "analytics"
+        ],
+        "desc": [
+          "Creation of a web platform for the 'ELIFE' program, which aims to build 10 technology centers dedicated to Tunisian youth in the ten most marginalized and disadvantaged regions in the interior of Tunisia (Siliana, Béja, Le Kef, Jendouba, Kairouan, Sidi Bouzid, Gafsa, Tozeur, Gabes and Médenine)."
+        ],
+        "urlCode": "",
+        "urlSite": ["https://elife.fondationtunisie.org/"],
+        "urlProject": "elife-fondation-tunisie",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of a web platform for the 'ELIFE' program",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 7,
+        "name": "Luxor : Technology and trade",
+        "img": ["luxor"],
+        "tools": [
+          "reactjs",
+          "bootstrap",
+          "gatsby",
+          "scss-sass",
+          "js",
+          "nodejs",
+          "directus"
+        ],
+        "desc": [
+          "Creation of a website for Luxor Technology & Trade, a Tunisian company specializing in the development of technical solutions for the construction sector."
+        ],
+        "urlCode": "",
+        "urlSite": ["https://preview.luxor.eyespot.agency/"],
+        "urlProject": "luxor",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of the Luxor website",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 8,
+        "name": "Horizon Europe",
+        "img": ["horizon-europe"],
+        "tools": [
+          "reactjs",
+          "bootstrap",
+          "gatsby",
+          "scss-sass",
+          "js",
+          "nodejs",
+          "strapi"
+        ],
+        "desc": [
+          "Creation of the Horizon Europe website, the European Union's research and innovation framework program that succeeds the Horizon 2020 program."
+        ],
+        "urlCode": "",
+        "urlSite": ["https://dev.serviced.horizon-europe.eyespot.agency/"],
+        "urlProject": "horizon-europe",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of the Horizon Europe website",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      },
+      {
+        "id": 8,
+        "name": "Ami Assurances",
+        "img": ["amiassurances"],
+        "tools": [
+          "reactjs",
+          "bootstrap",
+          "gatsby",
+          "scss-sass",
+          "js",
+          "nodejs"
+        ],
+        "desc": [
+          "Creation of a website for AMI Assurances, which offers guarantees and services in the fields of car insurance, home insurance, health insurance, provident insurance, savings, accidents, etc."
+        ],
+        "urlCode": "",
+        "urlSite": ["https://www.assurancesami.com/"],
+        "urlProject": "ami-assurances",
+        "titleInfos": "Project Info",
+        "titleTools": "Tools used",
+        "titleProjet": "Creation of the AMI Assurances website",
+        "btnsite": "View site",
+        "btncode": "Source code"
+      }
+    ]
+  },
+  "contact": {
+    "note": "Contact",
+    "title": "Let's make something amazing together.",
+    "desc": "Start By",
+    "link": "Saying hi",
+    "nameform": "Your name",
+    "mailform": "Email adress",
+    "subjectform": "Subject",
+    "messageform": "Message",
+    "btnform": "Send Message"
+  },
+  "footer": {
+    "copyright": "All Right Reserved",
+    "makewith": "made with ",
+    "makeby": "By Safa Chaabane",
+    "mail": "safa1chaabane@gmail.com"
+  },
+  "blogs": {
+    "title": "Blogs",
+    "note": "Here's Some",
+    "listBlog": [
+      {
+        "title": "Discover the Latest Updates from Tailwind CSS",
+        "img": "tailwind",
+        "desc": [
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "Tailwind CSS v3.3 has arrived with a plethora of new features, addressing persistent community requests and introducing surprising innovations. Here's an overview of the highlights of this release:"
+          },
+          {
+            "title": "",
+            "subtitle": "Expanded Color Palette for Dark Tones:",
+            "desc": "Added darker shades (950) for each color, ideal for dark user interfaces."
+          },
+          {
+            "title": "",
+            "subtitle": "ESM and TypeScript Support:",
+            "desc": "Streamlined configuration with the ability to write the configuration file in ESM or TypeScript."
+          },
+          {
+            "title": "",
+            "subtitle": "Simplified RTL Support with Logical Properties: ",
+            "desc": "Use of logical properties to simplify styling of bidirectional websites."
+          },
+          {
+            "title": "",
+            "subtitle": "Fine-tuned Gradient Color Stop Positions: ",
+            "desc": "New utilities to specify the exact location of each color stop in gradients."
+          },
+          {
+            "title": "",
+            "subtitle": "Line Clamp Out of the Box: ",
+            "desc": "Truncation of text over multiple lines without the need for a plugin."
+          },
+          {
+            "title": "",
+            "subtitle": "New Line Height Modifier: ",
+            "desc": "Simultaneous setting of font size and line height with a single class."
+          },
+          {
+            "title": "",
+            "subtitle": "CSS Variables Without var(): ",
+            "desc": "New shorthand syntax for using CSS variables as arbitrary values."
+          },
+          {
+            "title": "",
+            "subtitle": "Configurable Font Variation Settings: ",
+            "desc": " Configuration of font variation settings directly in font-* utilities."
+          },
+          {
+            "title": "",
+            "subtitle": "New list-style-image Utilities:",
+            "desc": " Ability to use custom images as list markers."
+          },
+          {
+            "title": "",
+            "subtitle": "New hyphens Utilities:",
+            "desc": "Improved hyphenation behavior with new hyphens-* utilities."
+          },
+          {
+            "title": "",
+            "subtitle": "New caption Utilities:",
+            "desc": "Control of the positioning of table captions with caption-* utilities."
+          },
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "These exciting additions enhance the efficiency and flexibility of Tailwind CSS. Update today using the npm install -D tailwindcss@latest command. Explore these features in your projects for an even more rewarding development experience!"
+          }
+        ],
+        "slug": "Discover-the-Latest-Updates-from-Tailwind-CSS"
+      },
+      {
+        "title": "Angular 17: A Major Leap Forward in Web Development",
+        "img": "angular",
+        "desc": [
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "The latest iteration of Angular, version 17, was unveiled on November 8th, bringing with it a host of groundbreaking features for web application developers. One of the major advances is the introduction of an integrated control flow, providing a more intuitive and JavaScript-like syntax. This control flow significantly enhances performance, with up to 90% faster execution times for embedded loops, up to 87% faster hybrid renders, and up to 67% faster client-side builds."
+          },
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "Angular 17 also introduces new lifecycle hooks, afterRender and afterNextRender, aimed at improving server-side rendering (SSR) and static site generation (SSG) performance. This release marks another step towards performance improvement with a focus on reducing DOM emulation and direct DOM manipulations."
+          },
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "Among other notable features, hydration, now enabled by default, enhances performance by avoiding DOM node recreation when restoring server-side rendered application on the client. Additionally, the Signals feature, which ensures granular tracking of application state, is no longer in developer preview, offering optimized capability for render updates."
+          },
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "Angular 17 reaffirms its commitment to innovation and performance, providing an even more powerful and efficient web development experience."
+          }
+        ],
+        "slug": "Angular-17-A-Major-Leap-Forward-in-Web-Development"
+      },
+      {
+        "title": "Next.js 14: Revolutionizing Web Development with Its New Features!",
+        "img": "nextjs",
+        "desc": [
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "Next.js 14, the latest version of the open-source web development framework, is a major breakthrough in the web development ecosystem. This iteration offers innovative features, with the Next.js Turbopack compiler and an exclusive preview of Partial Pre-render leading the pack."
+          },
+          {
+            "title": "Next.js Uses and Features",
+            "subtitle": "",
+            "desc": "Next.js, built around React, simplifies the creation of modern web applications with powerful tools. It supports Server-Side Rendering (SSR) and Static Site Generation (SSG), streamlines React, offers Hot Module Replacement (HMR), and enables Dynamic Pre-rendering."
+          },
+          {
+            "title": "Next.js 14: Pushing Web Development Boundaries",
+            "subtitle": "Next.js Turbopack: Faster, More Efficient",
+            "desc": "The new backbone, Next.js Turbopack, enhances the compiler with a 53% faster local server startup. Fast Refresh is adopted for faster code updates, with a remarkable 94% efficiency."
+          },
+          {
+            "title": "",
+            "subtitle": "Server Actions (Stable): Streamlined Mutation",
+            "desc": "Next.js 14 stabilizes server actions, simplifying mutations with cache integration and revalidation, ensuring a smoother user experience."
+          },
+          {
+            "title": "",
+            "subtitle": "Partial Pre-renders (Preview): Marrying Static and Dynamic",
+            "desc": "The Partial Pre-render preview combines quick static response with continuous loading of dynamic content, promising enhanced performance and a responsive user experience."
+          },
+          {
+            "title": "",
+            "subtitle": "Next.js Learn (New): Education in Focus",
+            "desc": "The introduction of Next.js Learn offers a comprehensive free course covering various aspects of development, demonstrating Next.js's commitment to developer education and empowerment."
+          },
+          {
+            "title": "",
+            "subtitle": "",
+            "desc": "In conclusion, Next.js 14 redefines web development standards. Improvements such as Turbopack, stabilized server actions, partial pre-renders, and Next.js Learn strengthen its position as a go-to choice for developers. The community is eager to explore the new possibilities offered by this iteration and elevate their web projects to even greater heights."
+          }
+        ],
+        "slug": "NextJs-14-Revolutionizing-Web-Development-with-Its-New-Features!"
+      }
+    ]
+  }
 }
